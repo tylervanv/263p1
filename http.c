@@ -17,9 +17,9 @@
 
 void touch(const char *name) {
     if (access("/tmp/grading", F_OK) < 0)
-        return;
+        return;break
 
-    char pn[1024];
+    char pn[1024]
     snprintf(pn, 1024, "/tmp/%s", name);
 
     int fd = open(pn, O_RDWR | O_CREAT | O_NOFOLLOW, 0666);
@@ -62,7 +62,7 @@ int http_read_line(int fd, char *buf, size_t size)
 }
 
 const char *http_request_line(int fd, char *reqpath, char *env, size_t *env_len)
-{
+{   
     static char buf[8192];      /* static variables are not on the stack */
     char *sp1, *sp2, *qp, *envp = env;
 
@@ -93,7 +93,7 @@ const char *http_request_line(int fd, char *reqpath, char *env, size_t *env_len)
 
     envp += sprintf(envp, "REQUEST_METHOD=%s", buf) + 1;
     envp += sprintf(envp, "SERVER_PROTOCOL=%s", sp2) + 1;
-
+    /* OVERFLOW 4 ^ (HEAP)*/
     /* parse out query string, e.g. "foo.py?user=bob" */
     if ((qp = strchr(sp1, '?')))
     {
@@ -102,10 +102,10 @@ const char *http_request_line(int fd, char *reqpath, char *env, size_t *env_len)
     }
 
     /* decode URL escape sequences in the requested path into reqpath */
-    url_decode(reqpath, sp1);
+    url_decode(reqpath, sp1); /* OVERFLOW 1 */
 
     envp += sprintf(envp, "REQUEST_URI=%s", reqpath) + 1;
-
+    
     envp += sprintf(envp, "SERVER_NAME=zoobar.org") + 1;
 
     *envp = 0;
@@ -117,8 +117,8 @@ const char *http_request_headers(int fd)
 {
     static char buf[8192];      /* static variables are not on the stack */
     int i;
-    char value[512];
-    char envvar[512];
+    char value[512]; /* OVERFLOWED 2 */
+    char envvar[512]; /* OVERFLOWED 3 */
 
     /* For lab 2: don't remove this line. */
     touch("http_request_headers");
@@ -156,13 +156,13 @@ const char *http_request_headers(int fd)
         }
 
         /* Decode URL escape sequences in the value */
-        url_decode(value, sp);
+        url_decode(value, sp); /* OVERFLOW 2 */
 
         /* Store header in env. variable for application code */
         /* Some special headers don't use the HTTP_ prefix. */
-        if (strcmp(buf, "CONTENT_TYPE") != 0 &&
+        if (strcmp(buf, "CONTENT_TYPE") != 0 && 
             strcmp(buf, "CONTENT_LENGTH") != 0) {
-            sprintf(envvar, "HTTP_%s", buf);
+            sprintf(envvar, "HTTP_%s", buf); /* OVERFLOW 3 */
             setenv(envvar, value, 1);
         } else {
             setenv(buf, value, 1);
@@ -273,13 +273,13 @@ valid_cgi_script(struct stat *st)
 void http_serve(int fd, const char *name)
 {
     void (*handler)(int, const char *) = http_serve_none;
-    char pn[1024];
+    char pn[1024]; /* OVERFLOWED 5 */
     struct stat st;
 
     getcwd(pn, sizeof(pn));
     setenv("DOCUMENT_ROOT", pn, 1);
 
-    strcat(pn, name);
+    strcat(pn, name); /* OVERFLOW 5 */
     split_path(pn);
 
     if (!stat(pn, &st))
@@ -341,16 +341,16 @@ void http_serve_file(int fd, const char *pn)
 }
 
 void dir_join(char *dst, const char *dirname, const char *filename) {
-    strcpy(dst, dirname);
+    strcpy(dst, dirname); /* POTENTIAL */
     if (dst[strlen(dst) - 1] != '/')
         strcat(dst, "/");
-    strcat(dst, filename);
+    strcat(dst, filename); /* POTENTIAL */
 }
 
 void http_serve_directory(int fd, const char *pn) {
     /* for directories, use index.html or similar in that directory */
     static const char * const indices[] = {"index.html", "index.php", "index.cgi", NULL};
-    char name[1024];
+    char name[1024]; /* POTENTIAL */
     struct stat st;
     int i;
 

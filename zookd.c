@@ -59,13 +59,13 @@ int main(int argc, char **argv)
 }
 
 static void process_client(int fd)
-{
+{   /* OVERFLOWED 4 (in http.c 95 or 107) */
     static char env[8192];  /* static variables are not on the stack */
     static size_t env_len;
-    char reqpath[2048];
+    char reqpath[2048]; /* OVERFLOWED 1 (in url_decode) */
     const char *errmsg;
     int i;
-
+    
     /* get the request line */
     if ((errmsg = http_request_line(fd, reqpath, env, &env_len)))
         return http_err(fd, 500, "http_request_line: %s", errmsg);
