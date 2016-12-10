@@ -9,7 +9,7 @@ overwritten by the 'msg' variable because ...
 
     <paste offending line(s) of code here>
 
-[http.c:1512]
+[http.c:106]
 another description.
 
     <paste offending line(s) of code here>

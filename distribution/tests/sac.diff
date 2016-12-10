@@ -1,0 +1,1983 @@
+diff -r tests/results_sac/t10f.txt tests/results_student_sac/t10f.txt
+34c34
+< MM: Wrote 32 bytes at 0x62e0.
+---
+> MM: Wrote 32 bytes at 0x45e0.
+38d37
+< MM: Wrote 32 bytes at 0x6060.
+44a44
+> MM: Wrote 32 bytes at 0x5e80.
+48d47
+< MM: Wrote 32 bytes at 0x5e80.
+52d50
+< MM: Wrote 32 bytes at 0x6c20.
+60c58
+< Writes to Main Memory:	4
+---
+> Writes to Main Memory:	2
+diff -r tests/results_sac/t11f.txt tests/results_student_sac/t11f.txt
+16d15
+< MM: Wrote 32 bytes at 0x9de0.
+20c19
+< MM: Wrote 32 bytes at 0xcc20.
+---
+> MM: Wrote 32 bytes at 0x4a20.
+27c26
+< MM: Wrote 32 bytes at 0x4a20.
+---
+> MM: Wrote 32 bytes at 0x1920.
+45a45
+> MM: Wrote 32 bytes at 0xcec0.
+51a52
+> MM: Wrote 32 bytes at 0xf1e0.
+59c60
+< Writes to Main Memory:	3
+---
+> Writes to Main Memory:	4
+diff -r tests/results_sac/t11s.txt tests/results_student_sac/t11s.txt
+7c7
+< MM: Wrote 32 bytes at 0x1940.
+---
+> MM: Wrote 32 bytes at 0xc340.
+diff -r tests/results_sac/t12f.txt tests/results_student_sac/t12f.txt
+31c31
+< MM: Wrote 32 bytes at 0x1ec0.
+---
+> MM: Wrote 32 bytes at 0x68c0.
+35d34
+< MM: Wrote 32 bytes at 0x68c0.
+38a38
+> MM: Wrote 32 bytes at 0x99a0.
+42d41
+< MM: Wrote 32 bytes at 0x99a0.
+49c48
+< MM: Wrote 32 bytes at 0x9660.
+---
+> MM: Wrote 32 bytes at 0x9160.
+62c61
+< Writes to Main Memory:	4
+---
+> Writes to Main Memory:	3
+diff -r tests/results_sac/t12s.txt tests/results_student_sac/t12s.txt
+2c2
+< Read from 0x53b4: 1406182955
+---
+> Read from 0x53b4: 0
+10,11c10
+< MM: Read 32 bytes at 0x53a0.
+< Read from 0x53b4: 1406182955
+---
+> Read from 0x53b4: 0
+15,16c14,15
+< Read Hit Rate:		0% (0/4)
+< Total Hit Rate:		0% (0/4)
+---
+> Read Hit Rate:		25% (1/4)
+> Total Hit Rate:		25% (1/4)
+18c17
+< Reads from Main Memory:	4
+---
+> Reads from Main Memory:	3
+diff -r tests/results_sac/t13s.txt tests/results_student_sac/t13s.txt
+1,19d0
+< MM: Read 32 bytes at 0xa5a0.
+< Wrote to 0xa5bc: -1407746015
+< 
+< Read from 0xa5bc: -1407746015
+< 
+< MM: Read 32 bytes at 0xd2a0.
+< Read from 0xd2a8: -237696864
+< 
+< MM: Wrote 32 bytes at 0xa5a0.
+< MM: Read 32 bytes at 0x42a0.
+< Read from 0x42a0: -181575554
+< 
+< *******************************************
+< Write Hit Rate:		0% (0/1)
+< Read Hit Rate:		33% (1/3)
+< Total Hit Rate:		25% (1/4)
+< Writes to Main Memory:	1
+< Reads from Main Memory:	3
+< *******************************************
+diff -r tests/results_sac/t14f.txt tests/results_student_sac/t14f.txt
+1,66d0
+< MM: Read 32 bytes at 0x1e0.
+< Wrote to 0x1e4: -321312461
+< 
+< MM: Read 32 bytes at 0x56e0.
+< Read from 0x56fc: 785288071
+< 
+< MM: Read 32 bytes at 0xce00.
+< Wrote to 0xce00: 1582529948
+< 
+< MM: Read 32 bytes at 0xb480.
+< Wrote to 0xb490: -713662261
+< 
+< MM: Read 32 bytes at 0xe00.
+< Wrote to 0xe1c: -13940496
+< 
+< MM: Read 32 bytes at 0x36c0.
+< Read from 0x36c4: 201478224
+< 
+< MM: Wrote 32 bytes at 0x1e0.
+< MM: Read 32 bytes at 0xfae0.
+< Read from 0xfaf8: -2144726017
+< 
+< MM: Wrote 32 bytes at 0xce00.
+< MM: Read 32 bytes at 0xf500.
+< Read from 0xf518: -1954843744
+< 
+< MM: Wrote 32 bytes at 0xe00.
+< MM: Read 32 bytes at 0xa600.
+< Read from 0xa610: -761326634
+< 
+< MM: Read 32 bytes at 0x16a0.
+< Read from 0x16b0: -12753641
+< 
+< MM: Read 32 bytes at 0xd680.
+< Wrote to 0xd68c: 1561142346
+< 
+< MM: Wrote 32 bytes at 0xb480.
+< MM: Read 32 bytes at 0xf680.
+< Wrote to 0xf69c: -1703212033
+< 
+< MM: Read 32 bytes at 0xd000.
+< Wrote to 0xd004: 1746628421
+< 
+< MM: Read 32 bytes at 0x5b00.
+< Read from 0x5b10: 372742078
+< 
+< MM: Wrote 32 bytes at 0xd000.
+< MM: Read 32 bytes at 0x4e00.
+< Read from 0x4e04: 988471399
+< 
+< MM: Read 32 bytes at 0x1160.
+< Read from 0x117c: -350483689
+< 
+< MM: Read 32 bytes at 0x9720.
+< Wrote to 0x9734: -244061713
+< 
+< MM: Read 32 bytes at 0x1e0.
+< Read from 0x1e4: -321312461
+< 
+< *******************************************
+< Write Hit Rate:		0% (0/8)
+< Read Hit Rate:		0% (0/10)
+< Total Hit Rate:		0% (0/18)
+< Writes to Main Memory:	5
+< Reads from Main Memory:	18
+< *******************************************
+diff -r tests/results_sac/t14s.txt tests/results_student_sac/t14s.txt
+7d6
+< MM: Wrote 32 bytes at 0x3e0.
+11d9
+< MM: Read 32 bytes at 0x3e0.
+16,19c14,17
+< Read Hit Rate:		0% (0/3)
+< Total Hit Rate:		0% (0/4)
+< Writes to Main Memory:	1
+< Reads from Main Memory:	4
+---
+> Read Hit Rate:		33% (1/3)
+> Total Hit Rate:		25% (1/4)
+> Writes to Main Memory:	0
+> Reads from Main Memory:	3
+diff -r tests/results_sac/t15.txt tests/results_student_sac/t15.txt
+279c279
+< MM: Wrote 32 bytes at 0xeda0.
+---
+> MM: Wrote 32 bytes at 0xeea0.
+396a397,398
+> MM: Wrote 32 bytes at 0xefa0.
+> MM: Read 32 bytes at 0xeea0.
+525,526d526
+< MM: Wrote 32 bytes at 0xefa0.
+< MM: Read 32 bytes at 0xeda0.
+543c543
+< MM: Wrote 32 bytes at 0xef80.
+---
+> MM: Wrote 32 bytes at 0xee80.
+diff -r tests/results_sac/t16.txt tests/results_student_sac/t16.txt
+6c6
+< Read from 0x74f4: -953078922
+---
+> Read from 0x74f4: 0
+263,554c263
+< Read from 0x76d8: 27570107
+< 
+< Wrote to 0x76dc: 1437758981
+< 
+< MM: Wrote 32 bytes at 0x74e0.
+< MM: Read 32 bytes at 0x76e0.
+< Wrote to 0x76e0: 2026771573
+< 
+< Read from 0x76e4: 628653950
+< 
+< Read from 0x76e8: 1333138632
+< 
+< Wrote to 0x76ec: -47289043
+< 
+< Wrote to 0x76f0: -1390163610
+< 
+< Wrote to 0x76f4: 2140617457
+< 
+< MM: Wrote 32 bytes at 0x75e0.
+< MM: Read 32 bytes at 0x74e0.
+< Read from 0x74ec: -1122623626
+< 
+< Read from 0x74f0: -1178962028
+< 
+< Read from 0x74f4: -953078922
+< 
+< Read from 0x74f8: 798332767
+< 
+< Read from 0x74fc: 1365943080
+< 
+< Read from 0x7500: 804039019
+< 
+< Read from 0x7504: -2144399252
+< 
+< Read from 0x7508: 984078905
+< 
+< Read from 0x750c: -1180207993
+< 
+< Read from 0x7510: -16200515
+< 
+< Read from 0x7514: 1990027840
+< 
+< Read from 0x7518: -496743370
+< 
+< Read from 0x751c: -803295906
+< 
+< Read from 0x7520: 68610138
+< 
+< Read from 0x7524: -298068457
+< 
+< Read from 0x7528: 1589377171
+< 
+< Read from 0x752c: 1501860306
+< 
+< Read from 0x7530: 358432382
+< 
+< Read from 0x7534: -118045
+< 
+< Read from 0x7538: -1052234975
+< 
+< Read from 0x753c: -410208486
+< 
+< Read from 0x7540: -407124091
+< 
+< Read from 0x7544: -1391202996
+< 
+< Read from 0x7548: 590078909
+< 
+< Read from 0x754c: -1371670180
+< 
+< Read from 0x7550: 858090508
+< 
+< Read from 0x7554: -81114375
+< 
+< Read from 0x7558: 831343148
+< 
+< Read from 0x755c: -165612351
+< 
+< Read from 0x7560: 418275292
+< 
+< Read from 0x7564: 2007652463
+< 
+< Read from 0x7568: -212482532
+< 
+< Read from 0x756c: -1030371346
+< 
+< Read from 0x7570: -1924284938
+< 
+< Read from 0x7574: 849450540
+< 
+< Read from 0x7578: -1583828951
+< 
+< Read from 0x757c: -238249524
+< 
+< Read from 0x7580: 884684012
+< 
+< Read from 0x7584: -1291808103
+< 
+< Read from 0x7588: 902463785
+< 
+< Read from 0x758c: 149313143
+< 
+< Read from 0x7590: -1117001577
+< 
+< Read from 0x7594: 966691230
+< 
+< Read from 0x7598: -1047805606
+< 
+< Read from 0x759c: -411266734
+< 
+< Read from 0x75a0: 302340343
+< 
+< Read from 0x75a4: -1334682658
+< 
+< Read from 0x75a8: 367028498
+< 
+< Read from 0x75ac: -332994872
+< 
+< Read from 0x75b0: -168212815
+< 
+< Read from 0x75b4: 21483982
+< 
+< Read from 0x75b8: -1974163997
+< 
+< Read from 0x75bc: 811925917
+< 
+< Read from 0x75c0: 21054276
+< 
+< Read from 0x75c4: -451407990
+< 
+< Read from 0x75c8: -1443381987
+< 
+< Read from 0x75cc: -1968448182
+< 
+< Read from 0x75d0: 1751296179
+< 
+< Read from 0x75d4: -1628287072
+< 
+< Read from 0x75d8: -642466046
+< 
+< Read from 0x75dc: -571952422
+< 
+< MM: Wrote 32 bytes at 0x76e0.
+< MM: Read 32 bytes at 0x75e0.
+< Read from 0x75e0: -174387311
+< 
+< Read from 0x75e4: 1762331442
+< 
+< Read from 0x75e8: 1815985338
+< 
+< Read from 0x75ec: -230969104
+< 
+< Read from 0x75f0: -75783899
+< 
+< Read from 0x75f4: -2099384567
+< 
+< Read from 0x75f8: -544186755
+< 
+< Read from 0x75fc: 1383544041
+< 
+< Read from 0x7600: -1147501041
+< 
+< Read from 0x7604: 1092029032
+< 
+< Read from 0x7608: -683689930
+< 
+< Read from 0x760c: 1836019676
+< 
+< Read from 0x7610: -1765625020
+< 
+< Read from 0x7614: -1546909832
+< 
+< Read from 0x7618: 557530209
+< 
+< Read from 0x761c: -452725022
+< 
+< Read from 0x7620: 390461754
+< 
+< Read from 0x7624: 500356726
+< 
+< Read from 0x7628: 2089301584
+< 
+< Read from 0x762c: 1711847118
+< 
+< Read from 0x7630: 55189903
+< 
+< Read from 0x7634: -130973802
+< 
+< Read from 0x7638: 1256945317
+< 
+< Read from 0x763c: -804583830
+< 
+< Read from 0x7640: -40644223
+< 
+< Read from 0x7644: 339551681
+< 
+< Read from 0x7648: -1199847077
+< 
+< Read from 0x764c: -806164536
+< 
+< Read from 0x7650: -1401849635
+< 
+< Read from 0x7654: 1702702843
+< 
+< Read from 0x7658: 2030573925
+< 
+< Read from 0x765c: -1985453479
+< 
+< Read from 0x7660: -1643716596
+< 
+< Read from 0x7664: 2035563899
+< 
+< Read from 0x7668: -1859784698
+< 
+< Read from 0x766c: -1914974601
+< 
+< Read from 0x7670: 2045948403
+< 
+< Read from 0x7674: 624173468
+< 
+< Read from 0x7678: -212163110
+< 
+< Read from 0x767c: 252807333
+< 
+< Read from 0x7680: 151437364
+< 
+< Read from 0x7684: 1154368474
+< 
+< Read from 0x7688: -904756035
+< 
+< Read from 0x768c: 1796310033
+< 
+< Read from 0x7690: 1965082686
+< 
+< Read from 0x7694: 1488659166
+< 
+< Read from 0x7698: -1326628997
+< 
+< Read from 0x769c: -589012592
+< 
+< Read from 0x76a0: -907137685
+< 
+< Read from 0x76a4: 1493693165
+< 
+< Read from 0x76a8: -1620160623
+< 
+< Read from 0x76ac: -1755822772
+< 
+< Read from 0x76b0: 311729124
+< 
+< Read from 0x76b4: 1358460964
+< 
+< Read from 0x76b8: -750453847
+< 
+< Read from 0x76bc: -1246198783
+< 
+< Read from 0x76c0: -52698575
+< 
+< Read from 0x76c4: 140468631
+< 
+< Read from 0x76c8: -2126989296
+< 
+< Read from 0x76cc: 1825321096
+< 
+< Read from 0x76d0: -1263546380
+< 
+< Read from 0x76d4: 1381923636
+< 
+< Read from 0x76d8: 27570107
+< 
+< Read from 0x76dc: 1437758981
+< 
+< MM: Read 32 bytes at 0x76e0.
+< Read from 0x76e0: 2026771573
+< 
+< Read from 0x76e4: 628653950
+< 
+< Read from 0x76e8: 1333138632
+< 
+< Read from 0x76ec: -47289043
+< 
+< Read from 0x76f0: -1390163610
+< 
+< Read from 0x76f4: 2140617457
+< 
+< *******************************************
+< Write Hit Rate:		85% (53/62)
+< Read Hit Rate:		94% (189/200)
+< Total Hit Rate:		92% (242/262)
+< Writes to Main Memory:	3
+< Reads from Main Memory:	20
+< *******************************************
+---
+> Read from 0x76d
+\ No newline at end of file
+diff -r tests/results_sac/t17f.txt tests/results_student_sac/t17f.txt
+1,62d0
+< MM: Read 32 bytes at 0x0.
+< Wrote to 0x0: -1352877201
+< 
+< MM: Read 32 bytes at 0x8f00.
+< Read from 0x8f0c: 113156297
+< 
+< MM: Read 32 bytes at 0xafa0.
+< Read from 0xafb4: 779484506
+< 
+< MM: Read 32 bytes at 0x7440.
+< Read from 0x7448: 1426880611
+< 
+< MM: Read 32 bytes at 0xf420.
+< Read from 0xf430: 1206873654
+< 
+< MM: Read 32 bytes at 0xcd60.
+< Wrote to 0xcd70: 1733331446
+< 
+< MM: Read 32 bytes at 0x82e0.
+< Read from 0x82ec: -760428145
+< 
+< MM: Read 32 bytes at 0x78a0.
+< Read from 0x78b4: 253815926
+< 
+< MM: Read 32 bytes at 0x6ec0.
+< Wrote to 0x6ecc: 1272990459
+< 
+< MM: Read 32 bytes at 0xe60.
+< Wrote to 0xe78: 1867384044
+< 
+< MM: Read 32 bytes at 0x4b80.
+< Wrote to 0x4b98: 1201099916
+< 
+< MM: Wrote 32 bytes at 0xcd60.
+< MM: Read 32 bytes at 0x2060.
+< Wrote to 0x2060: -187697093
+< 
+< MM: Read 32 bytes at 0xa820.
+< Read from 0xa820: 1086323479
+< 
+< MM: Read 32 bytes at 0xa6c0.
+< Read from 0xa6c8: 1826433796
+< 
+< MM: Read 32 bytes at 0x62e0.
+< Read from 0x62f8: 1752531335
+< 
+< MM: Read 32 bytes at 0x3280.
+< Wrote to 0x328c: 1077774564
+< 
+< MM: Wrote 32 bytes at 0xe60.
+< MM: Read 32 bytes at 0x6560.
+< Wrote to 0x6570: 1195464471
+< 
+< Read from 0x0: -1352877201
+< 
+< *******************************************
+< Write Hit Rate:		0% (0/8)
+< Read Hit Rate:		10% (1/10)
+< Total Hit Rate:		6% (1/18)
+< Writes to Main Memory:	2
+< Reads from Main Memory:	17
+< *******************************************
+diff -r tests/results_sac/t18f.txt tests/results_student_sac/t18f.txt
+1,63d0
+< MM: Read 32 bytes at 0xffe0.
+< Wrote to 0xfffc: -1291763890
+< 
+< MM: Read 32 bytes at 0xd940.
+< Wrote to 0xd95c: 54690978
+< 
+< MM: Read 32 bytes at 0xa0e0.
+< Read from 0xa0f0: 185559681
+< 
+< MM: Read 32 bytes at 0x8000.
+< Read from 0x8010: 797974966
+< 
+< MM: Read 32 bytes at 0x6d60.
+< Wrote to 0x6d78: -383520338
+< 
+< MM: Read 32 bytes at 0x2c0.
+< Wrote to 0x2c4: -910715283
+< 
+< MM: Read 32 bytes at 0xf500.
+< Read from 0xf504: -1279874243
+< 
+< MM: Read 32 bytes at 0x6840.
+< Read from 0x6844: -356840519
+< 
+< MM: Read 32 bytes at 0x1280.
+< Wrote to 0x129c: -161267485
+< 
+< MM: Read 32 bytes at 0x5e00.
+< Wrote to 0x5e08: 1227838156
+< 
+< MM: Read 32 bytes at 0xba20.
+< Wrote to 0xba30: 1980218734
+< 
+< MM: Read 32 bytes at 0xb1a0.
+< Read from 0xb1a4: -131468203
+< 
+< MM: Wrote 32 bytes at 0xffe0.
+< MM: Read 32 bytes at 0x50e0.
+< Wrote to 0x50f4: -1063527381
+< 
+< MM: Read 32 bytes at 0x1420.
+< Read from 0x142c: 1296779582
+< 
+< MM: Read 32 bytes at 0xdba0.
+< Read from 0xdbb4: 1323849420
+< 
+< MM: Read 32 bytes at 0x1400.
+< Read from 0x1400: 65900012
+< 
+< MM: Wrote 32 bytes at 0xd940.
+< MM: Read 32 bytes at 0x2f40.
+< Wrote to 0x2f44: -225045857
+< 
+< MM: Read 32 bytes at 0xffe0.
+< Read from 0xfffc: -1291763890
+< 
+< *******************************************
+< Write Hit Rate:		0% (0/9)
+< Read Hit Rate:		0% (0/9)
+< Total Hit Rate:		0% (0/18)
+< Writes to Main Memory:	2
+< Reads from Main Memory:	18
+< *******************************************
+diff -r tests/results_sac/t18s.txt tests/results_student_sac/t18s.txt
+7d6
+< MM: Wrote 32 bytes at 0xffe0.
+11d9
+< MM: Read 32 bytes at 0xffe0.
+16,19c14,17
+< Read Hit Rate:		0% (0/3)
+< Total Hit Rate:		0% (0/4)
+< Writes to Main Memory:	1
+< Reads from Main Memory:	4
+---
+> Read Hit Rate:		33% (1/3)
+> Total Hit Rate:		25% (1/4)
+> Writes to Main Memory:	0
+> Reads from Main Memory:	3
+diff -r tests/results_sac/t19.txt tests/results_student_sac/t19.txt
+19d18
+< MM: Read 32 bytes at 0xf0a0.
+25a25
+> MM: Wrote 32 bytes at 0x3ca0.
+29c29
+< MM: Wrote 32 bytes at 0x3ca0.
+---
+> MM: Wrote 32 bytes at 0xeea0.
+33d32
+< MM: Wrote 32 bytes at 0xeea0.
+37d35
+< MM: Read 32 bytes at 0xf0a0.
+44c42
+< MM: Wrote 32 bytes at 0xf0a0.
+---
+> MM: Wrote 32 bytes at 0x5aa0.
+48d45
+< MM: Wrote 32 bytes at 0x5aa0.
+51a49,50
+> MM: Wrote 32 bytes at 0x48a0.
+> MM: Read 32 bytes at 0x24a0.
+54d52
+< MM: Wrote 32 bytes at 0x48a0.
+57a56
+> MM: Wrote 32 bytes at 0x3ca0.
+61c60
+< MM: Wrote 32 bytes at 0x3ca0.
+---
+> MM: Wrote 32 bytes at 0x48a0.
+65c64
+< MM: Wrote 32 bytes at 0x48a0.
+---
+> MM: Wrote 32 bytes at 0x68a0.
+69d67
+< MM: Wrote 32 bytes at 0x68a0.
+72a71
+> MM: Wrote 32 bytes at 0x48a0.
+76d74
+< MM: Wrote 32 bytes at 0x48a0.
+82a81
+> MM: Read 32 bytes at 0x24a0.
+84a84
+> MM: Wrote 32 bytes at 0x24a0.
+88,89d87
+< MM: Wrote 32 bytes at 0x24a0.
+< MM: Read 32 bytes at 0xf0a0.
+98a97
+> MM: Read 32 bytes at 0x3ca0.
+103a103
+> MM: Wrote 32 bytes at 0x2aa0.
+107c107
+< MM: Wrote 32 bytes at 0x2aa0.
+---
+> MM: Wrote 32 bytes at 0xc6a0.
+111c111
+< MM: Wrote 32 bytes at 0xc6a0.
+---
+> MM: Wrote 32 bytes at 0x7ea0.
+115d114
+< MM: Wrote 32 bytes at 0x7ea0.
+118a118
+> MM: Wrote 32 bytes at 0x6a0.
+124c124
+< MM: Wrote 32 bytes at 0x6a0.
+---
+> MM: Wrote 32 bytes at 0xcaa0.
+128d127
+< MM: Wrote 32 bytes at 0xcaa0.
+134a134
+> MM: Wrote 32 bytes at 0x6a0.
+138d137
+< MM: Wrote 32 bytes at 0x6a0.
+144a144
+> MM: Wrote 32 bytes at 0x2aa0.
+148d147
+< MM: Wrote 32 bytes at 0x2aa0.
+154a154
+> MM: Wrote 32 bytes at 0xe6a0.
+158c158
+< MM: Wrote 32 bytes at 0xe6a0.
+---
+> MM: Wrote 32 bytes at 0x2aa0.
+162d161
+< MM: Wrote 32 bytes at 0x2aa0.
+165a165
+> MM: Wrote 32 bytes at 0xeea0.
+169c169
+< MM: Wrote 32 bytes at 0xeea0.
+---
+> MM: Wrote 32 bytes at 0x3ca0.
+173d172
+< MM: Wrote 32 bytes at 0x3ca0.
+176a176
+> MM: Wrote 32 bytes at 0xe6a0.
+180c180
+< MM: Wrote 32 bytes at 0xe6a0.
+---
+> MM: Wrote 32 bytes at 0x48a0.
+184d183
+< MM: Wrote 32 bytes at 0x48a0.
+187a187
+> MM: Wrote 32 bytes at 0x6a0.
+191c191
+< MM: Wrote 32 bytes at 0x6a0.
+---
+> MM: Wrote 32 bytes at 0xaca0.
+197c197
+< MM: Wrote 32 bytes at 0xaca0.
+---
+> MM: Wrote 32 bytes at 0xe6a0.
+201c201
+< MM: Wrote 32 bytes at 0xe6a0.
+---
+> MM: Wrote 32 bytes at 0xcaa0.
+diff -r tests/results_sac/t20.txt tests/results_student_sac/t20.txt
+1,170d0
+< MM: Read 32 bytes at 0xd040.
+< Read from 0xd04c: -798858970
+< 
+< MM: Read 32 bytes at 0x8000.
+< Wrote to 0x8018: 1236356212
+< 
+< MM: Read 32 bytes at 0x40.
+< Read from 0x58: -47545541
+< 
+< MM: Read 32 bytes at 0xa780.
+< Wrote to 0xa798: 2120521441
+< 
+< MM: Read 32 bytes at 0xd3c0.
+< Wrote to 0xd3dc: 814351879
+< 
+< MM: Read 32 bytes at 0x8de0.
+< Wrote to 0x8de0: -1221354881
+< 
+< MM: Read 32 bytes at 0x1680.
+< Wrote to 0x1680: -731575514
+< 
+< MM: Read 32 bytes at 0x360.
+< Read from 0x360: 693144151
+< 
+< MM: Read 32 bytes at 0x11c0.
+< Read from 0x11d0: -2044147728
+< 
+< MM: Read 32 bytes at 0x30a0.
+< Wrote to 0x30a4: 421550513
+< 
+< MM: Read 32 bytes at 0xc420.
+< Wrote to 0xc430: -1273985837
+< 
+< MM: Read 32 bytes at 0xd320.
+< Read from 0xd330: 1025913117
+< 
+< MM: Read 32 bytes at 0x10a0.
+< Read from 0x10bc: -1601790654
+< 
+< MM: Read 32 bytes at 0xbb60.
+< Wrote to 0xbb64: 1810768985
+< 
+< MM: Wrote 32 bytes at 0xa780.
+< MM: Read 32 bytes at 0xe580.
+< Read from 0xe590: 1804775766
+< 
+< MM: Read 32 bytes at 0xbb40.
+< Wrote to 0xbb4c: -1521985285
+< 
+< MM: Read 32 bytes at 0x4600.
+< Wrote to 0x4604: -1461915923
+< 
+< MM: Read 32 bytes at 0xd040.
+< Read from 0xd058: -774795459
+< 
+< Read from 0x8008: 2114819349
+< 
+< MM: Wrote 32 bytes at 0xbb40.
+< MM: Read 32 bytes at 0x40.
+< Wrote to 0x5c: -1154976335
+< 
+< MM: Wrote 32 bytes at 0x1680.
+< MM: Read 32 bytes at 0xa780.
+< Wrote to 0xa780: -237269391
+< 
+< Read from 0xd3d0: 681360890
+< 
+< Read from 0x8de0: -1221354881
+< 
+< MM: Read 32 bytes at 0x1680.
+< Read from 0x1698: -2063560347
+< 
+< Read from 0x370: 115488985
+< 
+< Read from 0x11c8: 891509744
+< 
+< Wrote to 0x30bc: -2125676437
+< 
+< Wrote to 0xc424: -709068953
+< 
+< Wrote to 0xd328: -1312440407
+< 
+< Read from 0x10a4: 1417158169
+< 
+< Wrote to 0xbb60: 522947878
+< 
+< MM: Wrote 32 bytes at 0xa780.
+< MM: Read 32 bytes at 0xe580.
+< Wrote to 0xe590: -492917389
+< 
+< MM: Read 32 bytes at 0xbb40.
+< Wrote to 0xbb44: -367575172
+< 
+< Read from 0x461c: -1127573193
+< 
+< MM: Wrote 32 bytes at 0x40.
+< MM: Read 32 bytes at 0xd040.
+< Wrote to 0xd058: -283794744
+< 
+< Read from 0x801c: 1166182583
+< 
+< MM: Wrote 32 bytes at 0xbb40.
+< MM: Read 32 bytes at 0x40.
+< Wrote to 0x44: 1009697813
+< 
+< MM: Read 32 bytes at 0xa780.
+< Wrote to 0xa794: -726427769
+< 
+< Wrote to 0xd3d0: 1067290171
+< 
+< Read from 0x8dec: -742309267
+< 
+< MM: Wrote 32 bytes at 0xe580.
+< MM: Read 32 bytes at 0x1680.
+< Read from 0x1694: 1248198266
+< 
+< Read from 0x37c: 531352652
+< 
+< Read from 0x11dc: -1398481449
+< 
+< Wrote to 0x30a0: -521711647
+< 
+< Read from 0xc42c: -1549875078
+< 
+< Read from 0xd324: 1027209965
+< 
+< Wrote to 0x10a8: 1212527530
+< 
+< Read from 0xbb60: 522947878
+< 
+< MM: Wrote 32 bytes at 0xa780.
+< MM: Read 32 bytes at 0xe580.
+< Read from 0xe594: 1289595413
+< 
+< MM: Wrote 32 bytes at 0xd040.
+< MM: Read 32 bytes at 0xbb40.
+< Read from 0xbb58: -1190854856
+< 
+< Wrote to 0x4608: -1584923480
+< 
+< MM: Wrote 32 bytes at 0x40.
+< MM: Read 32 bytes at 0xd040.
+< Read from 0xd040: 1055498951
+< 
+< Read from 0x8018: 1236356212
+< 
+< MM: Read 32 bytes at 0x40.
+< Read from 0x48: -1872143673
+< 
+< MM: Read 32 bytes at 0xa780.
+< Read from 0xa780: -237269391
+< 
+< Wrote to 0xd3d4: -40127973
+< 
+< Wrote to 0x8de0: -35789465
+< 
+< MM: Read 32 bytes at 0x1680.
+< Read from 0x1694: 1248198266
+< 
+< Read from 0x364: 1329787868
+< 
+< Read from 0x11d8: 1339061274
+< 
+< *******************************************
+< Write Hit Rate:		37% (10/27)
+< Read Hit Rate:		52% (17/33)
+< Total Hit Rate:		45% (27/60)
+< Writes to Main Memory:	10
+< Reads from Main Memory:	33
+< *******************************************
+diff -r tests/results_sac/t24.txt tests/results_student_sac/t24.txt
+1,57d0
+< MM: Read 32 bytes at 0x2a80.
+< Wrote to 0x2a8c: -38
+< 
+< Wrote to 0x2a88: -77
+< 
+< MM: Read 32 bytes at 0x5de0.
+< Wrote to 0x5df0: 84
+< 
+< MM: Read 32 bytes at 0x9b80.
+< Wrote to 0x9b9c: 95
+< 
+< Read from 0x2a88: -77
+< 
+< Read from 0x2a8c: -38
+< 
+< MM: Read 32 bytes at 0x21a0.
+< Wrote to 0x21a8: 48
+< 
+< MM: Read 32 bytes at 0xe600.
+< Read from 0xe60c: 2037373040
+< 
+< MM: Wrote 32 bytes at 0x9b80.
+< MM: Read 32 bytes at 0xe480.
+< Read from 0xe488: 447990824
+< 
+< Read from 0x2a8c: -38
+< 
+< MM: Read 32 bytes at 0x180.
+< Read from 0x19c: 1796320112
+< 
+< MM: Read 32 bytes at 0x5b20.
+< Read from 0x5b2c: -1173996515
+< 
+< Wrote to 0x2a88: -31
+< 
+< MM: Read 32 bytes at 0xa0.
+< Wrote to 0xbc: 5
+< 
+< Read from 0x2a8c: -38
+< 
+< Wrote to 0x5df0: 15
+< 
+< Read from 0x21a4: -49008431
+< 
+< MM: Read 32 bytes at 0xd6c0.
+< Read from 0xd6d0: -1059301012
+< 
+< MM: Read 32 bytes at 0xc6e0.
+< Wrote to 0xc6e8: 58
+< 
+< *******************************************
+< Write Hit Rate:		33% (3/9)
+< Read Hit Rate:		50% (5/10)
+< Total Hit Rate:		42% (8/19)
+< Writes to Main Memory:	1
+< Reads from Main Memory:	11
+< *******************************************
+diff -r tests/results_sac/t6d.txt tests/results_student_sac/t6d.txt
+1,143d0
+< MM: Read 32 bytes at 0x1da0.
+< Wrote to 0x1da8: -904806390
+< 
+< MM: Read 32 bytes at 0x19c0.
+< Read from 0x19c4: 1096546219
+< 
+< MM: Read 32 bytes at 0xb640.
+< Wrote to 0xb658: -1649258369
+< 
+< MM: Read 32 bytes at 0x5be0.
+< Wrote to 0x5be8: 66636395
+< 
+< MM: Read 32 bytes at 0x72e0.
+< Wrote to 0x72e4: -161611214
+< 
+< MM: Read 32 bytes at 0x100.
+< Wrote to 0x10c: 37810500
+< 
+< MM: Read 32 bytes at 0x9800.
+< Read from 0x980c: 715249490
+< 
+< Wrote to 0x110: 809922542
+< 
+< Wrote to 0x9814: 470688895
+< 
+< Wrote to 0x72e4: -579254916
+< 
+< MM: Read 32 bytes at 0xd0c0.
+< Read from 0xd0d4: 33424533
+< 
+< MM: Read 32 bytes at 0xf540.
+< Read from 0xf544: 630012290
+< 
+< MM: Read 32 bytes at 0xe60.
+< Read from 0xe68: 1913595450
+< 
+< Wrote to 0x1da8: -2103519064
+< 
+< Wrote to 0xb640: 1226453640
+< 
+< Wrote to 0x72e4: -1281831101
+< 
+< MM: Read 32 bytes at 0x2b60.
+< Read from 0x2b7c: -137183124
+< 
+< Read from 0x2b78: 772179920
+< 
+< Wrote to 0x9808: 482354610
+< 
+< Read from 0xe60: 1976404567
+< 
+< Read from 0xf550: 1291569488
+< 
+< Read from 0xf558: 2060528723
+< 
+< Read from 0x10c: 37810500
+< 
+< Read from 0xe60: 1976404567
+< 
+< Wrote to 0x19c4: 880023653
+< 
+< Wrote to 0xf540: 1001104100
+< 
+< Read from 0x72f8: 1555770056
+< 
+< Read from 0xf54c: -2033206316
+< 
+< MM: Read 32 bytes at 0x1c80.
+< Wrote to 0x1c90: 286938206
+< 
+< MM: Read 32 bytes at 0x8620.
+< Read from 0x8624: 380418472
+< 
+< Wrote to 0x1db0: -2093567587
+< 
+< Wrote to 0xe78: -1420885217
+< 
+< Read from 0x1c84: 1212254715
+< 
+< MM: Read 32 bytes at 0x70a0.
+< Wrote to 0x70b8: -1161971046
+< 
+< Wrote to 0x1c80: -279921492
+< 
+< Wrote to 0xf554: -2115556207
+< 
+< Wrote to 0x72e0: -2133647865
+< 
+< Read from 0xf54c: -2033206316
+< 
+< MM: Read 32 bytes at 0x3b80.
+< Wrote to 0x3b80: 1653386779
+< 
+< MM: Read 32 bytes at 0x2920.
+< Read from 0x2930: -2058490824
+< 
+< Wrote to 0x2b7c: 1287753253
+< 
+< Read from 0x100: 76447639
+< 
+< Read from 0xf550: 1291569488
+< 
+< Read from 0x19cc: 454557355
+< 
+< Wrote to 0x1dac: -1706850117
+< 
+< Read from 0x8634: 1823437762
+< 
+< Read from 0x1da0: 2119912264
+< 
+< Wrote to 0x1db0: -1789518925
+< 
+< Wrote to 0x8630: -2081007959
+< 
+< Read from 0x1da0: 2119912264
+< 
+< Wrote to 0x104: 1905361936
+< 
+< Wrote to 0x5bec: -1960700622
+< 
+< Read from 0x19dc: 1849433740
+< 
+< Wrote to 0x9810: 1326214732
+< 
+< Read from 0xe64: -801438337
+< 
+< Read from 0x5be8: 66636395
+< 
+< Read from 0xb640: 1226453640
+< 
+< Wrote to 0x2b60: -639631570
+< 
+< Read from 0x110: 809922542
+< 
+< Read from 0xb640: 1226453640
+< 
+< *******************************************
+< Write Hit Rate:		73% (22/30)
+< Read Hit Rate:		73% (22/30)
+< Total Hit Rate:		73% (44/60)
+< Writes to Main Memory:	0
+< Reads from Main Memory:	16
+< *******************************************
+diff -r tests/results_sac/t6f.txt tests/results_student_sac/t6f.txt
+24d23
+< MM: Read 32 bytes at 0xc660.
+36c35
+< MM: Wrote 32 bytes at 0xc660.
+---
+> MM: Wrote 32 bytes at 0xa660.
+39a39,40
+> MM: Wrote 32 bytes at 0xf860.
+> MM: Read 32 bytes at 0xa660.
+51a53,54
+> MM: Wrote 32 bytes at 0xa660.
+> MM: Read 32 bytes at 0xf860.
+58c61
+< MM: Wrote 32 bytes at 0x55a0.
+---
+> MM: Wrote 32 bytes at 0xd3a0.
+65,66d67
+< MM: Wrote 32 bytes at 0xd3a0.
+< MM: Read 32 bytes at 0x55a0.
+82c83
+< MM: Wrote 32 bytes at 0xa660.
+---
+> MM: Wrote 32 bytes at 0xf860.
+86,87d86
+< MM: Wrote 32 bytes at 0xf860.
+< MM: Read 32 bytes at 0xc660.
+99a99
+> MM: Wrote 32 bytes at 0x4aa0.
+102a103,104
+> MM: Wrote 32 bytes at 0xd3a0.
+> MM: Read 32 bytes at 0x4aa0.
+105,106d106
+< MM: Wrote 32 bytes at 0xd3a0.
+< MM: Read 32 bytes at 0x55a0.
+111d110
+< MM: Wrote 32 bytes at 0x4aa0.
+156,157c155,156
+< Read Hit Rate:		56% (15/27)
+< Total Hit Rate:		58% (35/60)
+---
+> Read Hit Rate:		59% (16/27)
+> Total Hit Rate:		60% (36/60)
+159c158
+< Reads from Main Memory:	25
+---
+> Reads from Main Memory:	24
+diff -r tests/results_sac/t6s.txt tests/results_student_sac/t6s.txt
+1,143d0
+< MM: Read 32 bytes at 0xae60.
+< Wrote to 0xae7c: 849534337
+< 
+< MM: Read 32 bytes at 0x6c00.
+< Wrote to 0x6c18: -1156378845
+< 
+< Read from 0xae68: 830218786
+< 
+< MM: Read 32 bytes at 0xbe60.
+< Read from 0xbe78: -1271081397
+< 
+< MM: Read 32 bytes at 0x7f80.
+< Wrote to 0x7f94: -293993284
+< 
+< MM: Read 32 bytes at 0x41e0.
+< Read from 0x41f8: -545023597
+< 
+< MM: Read 32 bytes at 0x20.
+< Wrote to 0x30: -1837003342
+< 
+< MM: Read 32 bytes at 0xd7c0.
+< Wrote to 0xd7c0: 1334075682
+< 
+< Wrote to 0xae78: 1784870713
+< 
+< Read from 0x6c04: 1805832742
+< 
+< Wrote to 0xd7c8: 1035438049
+< 
+< MM: Read 32 bytes at 0x2940.
+< Wrote to 0x2958: 718344764
+< 
+< Wrote to 0xae68: 258704633
+< 
+< Read from 0xd7dc: -1176761604
+< 
+< MM: Read 32 bytes at 0xbaa0.
+< Read from 0xbabc: 795961594
+< 
+< Read from 0x2944: 1329524302
+< 
+< Read from 0x41f4: 1300131497
+< 
+< MM: Read 32 bytes at 0xb540.
+< Wrote to 0xb558: -477831301
+< 
+< MM: Read 32 bytes at 0x8380.
+< Wrote to 0x839c: -1273624388
+< 
+< MM: Read 32 bytes at 0xebc0.
+< Read from 0xebc0: 1672420156
+< 
+< Wrote to 0x2950: 773521418
+< 
+< Read from 0x34: -624144744
+< 
+< Wrote to 0xd7d0: -1330345202
+< 
+< Wrote to 0xb554: -168992874
+< 
+< Wrote to 0x2940: -742840557
+< 
+< MM: Read 32 bytes at 0xd820.
+< Wrote to 0xd830: 535550300
+< 
+< Wrote to 0x2950: 953718320
+< 
+< Wrote to 0xbaa8: -1308031796
+< 
+< Read from 0x6c1c: -342307289
+< 
+< MM: Read 32 bytes at 0xbda0.
+< Read from 0xbda4: -688432699
+< 
+< MM: Read 32 bytes at 0x0.
+< Wrote to 0x1c: -300724427
+< 
+< Read from 0xae6c: 863700500
+< 
+< Wrote to 0x2958: 1199807997
+< 
+< Wrote to 0xbda4: 1990298976
+< 
+< Read from 0xbda4: 1990298976
+< 
+< MM: Read 32 bytes at 0x12e0.
+< Read from 0x12f8: -410009861
+< 
+< Read from 0x7f80: 1885817201
+< 
+< Wrote to 0x10: 1513683049
+< 
+< Read from 0xd7d0: -1330345202
+< 
+< Wrote to 0xb540: 269691644
+< 
+< Wrote to 0xebd0: -2119864606
+< 
+< Wrote to 0x12e8: -751360783
+< 
+< Wrote to 0xebdc: 1220916072
+< 
+< Wrote to 0x6c00: -1445725578
+< 
+< Read from 0xc: -1143656449
+< 
+< Wrote to 0xbda0: -8250992
+< 
+< Wrote to 0x41f0: 1916873313
+< 
+< Read from 0xbabc: 795961594
+< 
+< Read from 0xbda4: 1990298976
+< 
+< Wrote to 0xbdbc: 628638875
+< 
+< Read from 0x34: -624144744
+< 
+< Wrote to 0x7f88: -1510742930
+< 
+< Read from 0xebd4: 1357764937
+< 
+< Read from 0xebc0: 1672420156
+< 
+< Read from 0xbe7c: -1262961945
+< 
+< Wrote to 0xd7c0: -23724921
+< 
+< Read from 0x12f4: 695656516
+< 
+< Wrote to 0x4: -1681401013
+< 
+< Wrote to 0xbe68: 460308350
+< 
+< Wrote to 0xb554: 354103184
+< 
+< *******************************************
+< Write Hit Rate:		71% (25/35)
+< Read Hit Rate:		76% (19/25)
+< Total Hit Rate:		73% (44/60)
+< Writes to Main Memory:	0
+< Reads from Main Memory:	16
+< *******************************************
+diff -r tests/results_sac/t7d.txt tests/results_student_sac/t7d.txt
+49d48
+< MM: Wrote 32 bytes at 0xde60.
+52a52
+> MM: Wrote 32 bytes at 0x120.
+59c59
+< MM: Wrote 32 bytes at 0x2bc0.
+---
+> MM: Wrote 32 bytes at 0x27c0.
+63c63
+< MM: Wrote 32 bytes at 0x120.
+---
+> MM: Wrote 32 bytes at 0x9420.
+74c74
+< MM: Wrote 32 bytes at 0x9420.
+---
+> MM: Wrote 32 bytes at 0x5120.
+78c78
+< MM: Wrote 32 bytes at 0x5120.
+---
+> MM: Wrote 32 bytes at 0xf720.
+82d81
+< MM: Wrote 32 bytes at 0xf720.
+94a94
+> MM: Wrote 32 bytes at 0x8ca0.
+98d97
+< MM: Wrote 32 bytes at 0xf6e0.
+101a101
+> MM: Wrote 32 bytes at 0x5820.
+105c105
+< MM: Wrote 32 bytes at 0x27c0.
+---
+> MM: Wrote 32 bytes at 0xe6c0.
+111a112
+> MM: Wrote 32 bytes at 0x2040.
+115d115
+< MM: Wrote 32 bytes at 0x5820.
+121a122
+> MM: Wrote 32 bytes at 0xe620.
+125d125
+< MM: Wrote 32 bytes at 0xe620.
+133c133
+< MM: Wrote 32 bytes at 0x2040.
+---
+> MM: Wrote 32 bytes at 0x840.
+140d139
+< MM: Wrote 32 bytes at 0x8ca0.
+143a143
+> MM: Wrote 32 bytes at 0x2c20.
+147c147
+< MM: Wrote 32 bytes at 0x840.
+---
+> MM: Wrote 32 bytes at 0xac40.
+150a151
+> MM: Wrote 32 bytes at 0x3fe0.
+163d163
+< MM: Wrote 32 bytes at 0x3fe0.
+167d166
+< MM: Wrote 32 bytes at 0xe6c0.
+171d169
+< MM: Wrote 32 bytes at 0x7f80.
+174a173
+> MM: Wrote 32 bytes at 0xf2c0.
+178c177
+< MM: Wrote 32 bytes at 0x2c20.
+---
+> MM: Wrote 32 bytes at 0x5320.
+182c181
+< MM: Wrote 32 bytes at 0xf2c0.
+---
+> MM: Wrote 32 bytes at 0xe9c0.
+186d184
+< MM: Wrote 32 bytes at 0xe9c0.
+190c188
+< MM: Wrote 32 bytes at 0x5320.
+---
+> MM: Wrote 32 bytes at 0x6a20.
+199a198
+> MM: Wrote 32 bytes at 0xce60.
+207c206
+< Writes to Main Memory:	22
+---
+> Writes to Main Memory:	21
+diff -r tests/results_sac/t7f.txt tests/results_student_sac/t7f.txt
+1,206d0
+< MM: Read 32 bytes at 0x2c0.
+< Wrote to 0x2d8: 1605504590
+< 
+< MM: Read 32 bytes at 0x3680.
+< Wrote to 0x3688: -211115354
+< 
+< MM: Read 32 bytes at 0x9700.
+< Read from 0x9704: 2135026232
+< 
+< MM: Read 32 bytes at 0x3020.
+< Read from 0x303c: 1070762718
+< 
+< MM: Read 32 bytes at 0x6120.
+< Read from 0x6124: 2119363833
+< 
+< MM: Read 32 bytes at 0x8d80.
+< Wrote to 0x8d8c: 560948450
+< 
+< MM: Read 32 bytes at 0x8c60.
+< Wrote to 0x8c7c: 1870760639
+< 
+< MM: Read 32 bytes at 0xe900.
+< Wrote to 0xe904: -312500692
+< 
+< MM: Read 32 bytes at 0x8260.
+< Read from 0x8270: 1642936747
+< 
+< MM: Read 32 bytes at 0x2ba0.
+< Wrote to 0x2bb4: 530850978
+< 
+< MM: Wrote 32 bytes at 0x3680.
+< MM: Read 32 bytes at 0xb780.
+< Read from 0xb780: 1862376963
+< 
+< MM: Read 32 bytes at 0xab20.
+< Wrote to 0xab34: 762831612
+< 
+< MM: Read 32 bytes at 0x66e0.
+< Wrote to 0x66f8: -619173431
+< 
+< MM: Read 32 bytes at 0xe6a0.
+< Read from 0xe6a8: 943005294
+< 
+< MM: Read 32 bytes at 0xf440.
+< Read from 0xf45c: -1236402961
+< 
+< MM: Wrote 32 bytes at 0x8d80.
+< MM: Read 32 bytes at 0x8180.
+< Wrote to 0x819c: 1377391298
+< 
+< MM: Wrote 32 bytes at 0x2ba0.
+< MM: Read 32 bytes at 0x95a0.
+< Wrote to 0x95a0: 1093234934
+< 
+< MM: Wrote 32 bytes at 0x8c60.
+< MM: Read 32 bytes at 0x2660.
+< Wrote to 0x267c: -834684293
+< 
+< MM: Read 32 bytes at 0x4f40.
+< Read from 0x4f54: 735577814
+< 
+< MM: Read 32 bytes at 0x1140.
+< Wrote to 0x114c: -1770344446
+< 
+< MM: Read 32 bytes at 0xada0.
+< Read from 0xada0: -345420068
+< 
+< MM: Read 32 bytes at 0xdd60.
+< Read from 0xdd78: 287316192
+< 
+< MM: Read 32 bytes at 0x8500.
+< Wrote to 0x850c: 324084009
+< 
+< MM: Wrote 32 bytes at 0x95a0.
+< MM: Read 32 bytes at 0xdba0.
+< Read from 0xdba4: 623424500
+< 
+< MM: Wrote 32 bytes at 0xe900.
+< MM: Read 32 bytes at 0xd700.
+< Read from 0xd710: -1763015444
+< 
+< MM: Wrote 32 bytes at 0x2660.
+< MM: Read 32 bytes at 0x9460.
+< Read from 0x9464: 215991996
+< 
+< MM: Read 32 bytes at 0x68e0.
+< Read from 0x68ec: -1012062050
+< 
+< MM: Read 32 bytes at 0xac0.
+< Wrote to 0xac4: -939677022
+< 
+< MM: Read 32 bytes at 0x29a0.
+< Wrote to 0x29b4: -1796818547
+< 
+< MM: Wrote 32 bytes at 0x2c0.
+< MM: Read 32 bytes at 0x7fc0.
+< Wrote to 0x7fc0: 402524117
+< 
+< MM: Wrote 32 bytes at 0x66e0.
+< MM: Read 32 bytes at 0x4ae0.
+< Read from 0x4afc: 849762348
+< 
+< MM: Wrote 32 bytes at 0x8500.
+< MM: Read 32 bytes at 0x700.
+< Read from 0x718: -418131563
+< 
+< MM: Read 32 bytes at 0x8700.
+< Read from 0x8718: 347175724
+< 
+< MM: Read 32 bytes at 0x3220.
+< Wrote to 0x322c: 1982157056
+< 
+< MM: Read 32 bytes at 0xea00.
+< Wrote to 0xea14: 601902696
+< 
+< MM: Wrote 32 bytes at 0xab20.
+< MM: Read 32 bytes at 0xf820.
+< Read from 0xf82c: -1600742854
+< 
+< MM: Read 32 bytes at 0xd860.
+< Read from 0xd870: 2483777
+< 
+< MM: Read 32 bytes at 0xad60.
+< Wrote to 0xad74: -1478744041
+< 
+< MM: Wrote 32 bytes at 0xac0.
+< MM: Read 32 bytes at 0xb1c0.
+< Read from 0xb1d4: 437081689
+< 
+< MM: Read 32 bytes at 0x7ee0.
+< Read from 0x7ee0: -353005190
+< 
+< MM: Wrote 32 bytes at 0x3220.
+< MM: Read 32 bytes at 0xc920.
+< Wrote to 0xc924: 1597410608
+< 
+< MM: Read 32 bytes at 0x8fa0.
+< Wrote to 0x8fac: 1768722929
+< 
+< MM: Read 32 bytes at 0x7840.
+< Wrote to 0x785c: 2129714902
+< 
+< MM: Read 32 bytes at 0xdb00.
+< Read from 0xdb08: -626322257
+< 
+< MM: Wrote 32 bytes at 0x1140.
+< MM: Read 32 bytes at 0x6140.
+< Read from 0x615c: -2126744335
+< 
+< MM: Wrote 32 bytes at 0xea00.
+< MM: Read 32 bytes at 0xdf00.
+< Read from 0xdf04: -346401489
+< 
+< MM: Wrote 32 bytes at 0x7840.
+< MM: Read 32 bytes at 0x8640.
+< Read from 0x8640: -1024589769
+< 
+< MM: Read 32 bytes at 0x6900.
+< Wrote to 0x6904: 908152338
+< 
+< MM: Read 32 bytes at 0x41e0.
+< Wrote to 0x41e4: -1766377050
+< 
+< MM: Read 32 bytes at 0x2140.
+< Read from 0x2148: 986879769
+< 
+< MM: Read 32 bytes at 0xbf40.
+< Wrote to 0xbf5c: 367027643
+< 
+< MM: Read 32 bytes at 0xd2e0.
+< Wrote to 0xd2e8: 2058149112
+< 
+< MM: Read 32 bytes at 0xbd60.
+< Wrote to 0xbd60: -1815542372
+< 
+< MM: Wrote 32 bytes at 0x7fc0.
+< MM: Read 32 bytes at 0x96c0.
+< Read from 0x96c8: 40313342
+< 
+< MM: Read 32 bytes at 0xf800.
+< Wrote to 0xf818: 1570038381
+< 
+< MM: Read 32 bytes at 0x9320.
+< Read from 0x9324: -1291580744
+< 
+< MM: Read 32 bytes at 0xae40.
+< Read from 0xae4c: -2110296360
+< 
+< MM: Wrote 32 bytes at 0x29a0.
+< MM: Read 32 bytes at 0x6ea0.
+< Wrote to 0x6ea4: -1724810409
+< 
+< MM: Read 32 bytes at 0x7e80.
+< Wrote to 0x7e80: -929671441
+< 
+< MM: Wrote 32 bytes at 0xbf40.
+< MM: Read 32 bytes at 0xc440.
+< Read from 0xc454: 46523202
+< 
+< *******************************************
+< Write Hit Rate:		0% (0/30)
+< Read Hit Rate:		0% (0/30)
+< Total Hit Rate:		0% (0/60)
+< Writes to Main Memory:	19
+< Reads from Main Memory:	60
+< *******************************************
+diff -r tests/results_sac/t7s.txt tests/results_student_sac/t7s.txt
+49d48
+< MM: Wrote 32 bytes at 0xaf20.
+53c52
+< MM: Wrote 32 bytes at 0x660.
+---
+> MM: Wrote 32 bytes at 0x1c60.
+57c56
+< MM: Wrote 32 bytes at 0x57a0.
+---
+> MM: Wrote 32 bytes at 0xc1a0.
+64c63
+< MM: Wrote 32 bytes at 0x29c0.
+---
+> MM: Wrote 32 bytes at 0xfd00.
+68c67
+< MM: Wrote 32 bytes at 0xdc80.
+---
+> MM: Wrote 32 bytes at 0x5c0.
+71a71
+> MM: Wrote 32 bytes at 0x62e0.
+75c75
+< MM: Wrote 32 bytes at 0x62e0.
+---
+> MM: Wrote 32 bytes at 0xf1e0.
+79c79
+< MM: Wrote 32 bytes at 0xc1a0.
+---
+> MM: Wrote 32 bytes at 0xe0a0.
+83c83
+< MM: Wrote 32 bytes at 0xd880.
+---
+> MM: Wrote 32 bytes at 0xdc80.
+87d86
+< MM: Wrote 32 bytes at 0xf1e0.
+90a90
+> MM: Wrote 32 bytes at 0x29c0.
+102a103
+> MM: Wrote 32 bytes at 0x8340.
+105a107
+> MM: Wrote 32 bytes at 0x3d20.
+116c118
+< MM: Wrote 32 bytes at 0xe0a0.
+---
+> MM: Wrote 32 bytes at 0xfda0.
+119a122
+> MM: Wrote 32 bytes at 0xd880.
+123c126
+< MM: Wrote 32 bytes at 0x1c60.
+---
+> MM: Wrote 32 bytes at 0x2060.
+127c130
+< MM: Wrote 32 bytes at 0x8340.
+---
+> MM: Wrote 32 bytes at 0x6a40.
+131c134
+< MM: Wrote 32 bytes at 0x5c0.
+---
+> MM: Wrote 32 bytes at 0xdbc0.
+135d137
+< MM: Wrote 32 bytes at 0xfd00.
+139d140
+< MM: Wrote 32 bytes at 0x6a40.
+143c144
+< MM: Wrote 32 bytes at 0xfda0.
+---
+> MM: Wrote 32 bytes at 0x89a0.
+149a151
+> MM: Wrote 32 bytes at 0x680.
+153c155
+< MM: Wrote 32 bytes at 0x2060.
+---
+> MM: Wrote 32 bytes at 0x9a60.
+157c159
+< MM: Wrote 32 bytes at 0x89a0.
+---
+> MM: Wrote 32 bytes at 0x5ba0.
+161d162
+< MM: Wrote 32 bytes at 0xdbc0.
+164a166
+> MM: Wrote 32 bytes at 0x26c0.
+168d169
+< MM: Wrote 32 bytes at 0x5ba0.
+172c173
+< MM: Wrote 32 bytes at 0x9a60.
+---
+> MM: Wrote 32 bytes at 0x2160.
+175a177
+> MM: Wrote 32 bytes at 0xf4a0.
+179c181
+< MM: Wrote 32 bytes at 0x2160.
+---
+> MM: Wrote 32 bytes at 0xa260.
+183c185
+< MM: Wrote 32 bytes at 0xa260.
+---
+> MM: Wrote 32 bytes at 0x3160.
+190c192
+< MM: Wrote 32 bytes at 0xf4a0.
+---
+> MM: Wrote 32 bytes at 0xa7a0.
+193a196
+> MM: Wrote 32 bytes at 0xa5e0.
+200c203
+< MM: Wrote 32 bytes at 0x3d20.
+---
+> MM: Wrote 32 bytes at 0x320.
+204c207
+< MM: Wrote 32 bytes at 0xa7a0.
+---
+> MM: Wrote 32 bytes at 0x97a0.
+212c215
+< Writes to Main Memory:	27
+---
+> Writes to Main Memory:	30
+diff -r tests/results_sac/t8d.txt tests/results_student_sac/t8d.txt
+80a81
+> MM: Wrote 32 bytes at 0x9700.
+84c85
+< MM: Wrote 32 bytes at 0x29a0.
+---
+> MM: Wrote 32 bytes at 0xe6a0.
+90a92
+> MM: Wrote 32 bytes at 0xfee0.
+98c100
+< MM: Wrote 32 bytes at 0xdf40.
+---
+> MM: Wrote 32 bytes at 0xd280.
+101a104
+> MM: Wrote 32 bytes at 0xdf40.
+105d107
+< MM: Wrote 32 bytes at 0x9700.
+109c111
+< MM: Wrote 32 bytes at 0xfee0.
+---
+> MM: Wrote 32 bytes at 0xe6e0.
+113d114
+< MM: Wrote 32 bytes at 0x5180.
+117c118
+< MM: Wrote 32 bytes at 0xe6e0.
+---
+> MM: Wrote 32 bytes at 0x52e0.
+124d124
+< MM: Wrote 32 bytes at 0xab20.
+132d131
+< MM: Wrote 32 bytes at 0x52e0.
+136d134
+< MM: Wrote 32 bytes at 0xe6a0.
+139a138
+> MM: Wrote 32 bytes at 0xbe60.
+143c142
+< MM: Wrote 32 bytes at 0xbe60.
+---
+> MM: Wrote 32 bytes at 0x8e60.
+150d148
+< MM: Wrote 32 bytes at 0x8e60.
+165a164
+> MM: Wrote 32 bytes at 0x9340.
+169c168
+< MM: Wrote 32 bytes at 0x9340.
+---
+> MM: Wrote 32 bytes at 0xd340.
+176d174
+< MM: Wrote 32 bytes at 0xd340.
+187c185
+< Writes to Main Memory:	16
+---
+> Writes to Main Memory:	14
+diff -r tests/results_sac/t8f.txt tests/results_student_sac/t8f.txt
+23a24
+> MM: Wrote 32 bytes at 0xf380.
+26a28,29
+> MM: Wrote 32 bytes at 0xc680.
+> MM: Read 32 bytes at 0xf380.
+35a39,40
+> MM: Wrote 32 bytes at 0xf380.
+> MM: Read 32 bytes at 0xc680.
+55c60
+< MM: Wrote 32 bytes at 0xe1e0.
+---
+> MM: Wrote 32 bytes at 0xc9e0.
+61d65
+< MM: Wrote 32 bytes at 0xc9e0.
+67a72,73
+> MM: Wrote 32 bytes at 0xf7e0.
+> MM: Read 32 bytes at 0x76e0.
+73d78
+< MM: Wrote 32 bytes at 0xf7e0.
+87a93
+> MM: Wrote 32 bytes at 0xade0.
+97c103
+< MM: Wrote 32 bytes at 0xade0.
+---
+> MM: Wrote 32 bytes at 0x59e0.
+100a107
+> MM: Wrote 32 bytes at 0xe860.
+104d110
+< MM: Wrote 32 bytes at 0xe860.
+115,116d120
+< MM: Wrote 32 bytes at 0x59e0.
+< MM: Read 32 bytes at 0xe1e0.
+124a129
+> MM: Wrote 32 bytes at 0x45c0.
+128c133
+< MM: Wrote 32 bytes at 0xf520.
+---
+> MM: Wrote 32 bytes at 0x7a20.
+132d136
+< MM: Wrote 32 bytes at 0x83a0.
+136c140
+< MM: Wrote 32 bytes at 0x7a20.
+---
+> MM: Wrote 32 bytes at 0xdc20.
+140c144
+< MM: Wrote 32 bytes at 0x45c0.
+---
+> MM: Wrote 32 bytes at 0xf6c0.
+147d150
+< MM: Wrote 32 bytes at 0xf380.
+155c158
+< MM: Wrote 32 bytes at 0xf6c0.
+---
+> MM: Wrote 32 bytes at 0xc3c0.
+159c162
+< MM: Wrote 32 bytes at 0xdc20.
+---
+> MM: Wrote 32 bytes at 0xac20.
+163d165
+< MM: Wrote 32 bytes at 0xe1e0.
+173d174
+< MM: Wrote 32 bytes at 0xac20.
+180c181
+< MM: Wrote 32 bytes at 0xc680.
+---
+> MM: Wrote 32 bytes at 0x5f00.
+188,192c189,193
+< Write Hit Rate:		22% (7/32)
+< Read Hit Rate:		21% (6/28)
+< Total Hit Rate:		22% (13/60)
+< Writes to Main Memory:	19
+< Reads from Main Memory:	47
+---
+> Write Hit Rate:		19% (6/32)
+> Read Hit Rate:		18% (5/28)
+> Total Hit Rate:		18% (11/60)
+> Writes to Main Memory:	18
+> Reads from Main Memory:	49
+diff -r tests/results_sac/t8s.txt tests/results_student_sac/t8s.txt
+88c88
+< MM: Wrote 32 bytes at 0x8080.
+---
+> MM: Wrote 32 bytes at 0x6f80.
+91a92
+> MM: Wrote 32 bytes at 0x3a0.
+95d95
+< MM: Wrote 32 bytes at 0x6f80.
+98a99
+> MM: Wrote 32 bytes at 0xd260.
+102c103
+< MM: Wrote 32 bytes at 0x3a0.
+---
+> MM: Wrote 32 bytes at 0x7a0.
+106d106
+< MM: Wrote 32 bytes at 0xd260.
+117c117
+< MM: Wrote 32 bytes at 0xdc40.
+---
+> MM: Wrote 32 bytes at 0x5740.
+121c121
+< MM: Wrote 32 bytes at 0x1dc0.
+---
+> MM: Wrote 32 bytes at 0xfa00.
+125d124
+< MM: Wrote 32 bytes at 0xfa00.
+129c128
+< MM: Wrote 32 bytes at 0x38c0.
+---
+> MM: Wrote 32 bytes at 0x1dc0.
+132a132
+> MM: Wrote 32 bytes at 0x8080.
+136d135
+< MM: Wrote 32 bytes at 0x7a0.
+139a139
+> MM: Wrote 32 bytes at 0x48c0.
+142a143
+> MM: Wrote 32 bytes at 0xa260.
+146d146
+< MM: Wrote 32 bytes at 0x1a20.
+150d149
+< MM: Wrote 32 bytes at 0xa260.
+165d163
+< MM: Wrote 32 bytes at 0x5740.
+180a179
+> MM: Wrote 32 bytes at 0x2920.
+188c187
+< Writes to Main Memory:	17
+---
+> Writes to Main Memory:	16
+diff -r tests/results_sac/t9f.txt tests/results_student_sac/t9f.txt
+1,60d0
+< MM: Read 32 bytes at 0x5720.
+< Read from 0x5720: 1403361303
+< 
+< MM: Read 32 bytes at 0xbcc0.
+< Wrote to 0xbcd8: 791059291
+< 
+< MM: Read 32 bytes at 0x4fa0.
+< Read from 0x4fbc: 1389829614
+< 
+< MM: Read 32 bytes at 0x9480.
+< Read from 0x948c: 2123243984
+< 
+< MM: Read 32 bytes at 0xdde0.
+< Wrote to 0xddf8: 967073606
+< 
+< MM: Read 32 bytes at 0x9980.
+< Read from 0x9988: -1823125913
+< 
+< MM: Read 32 bytes at 0x9d60.
+< Read from 0x9d70: 805472775
+< 
+< MM: Read 32 bytes at 0xe700.
+< Read from 0xe700: -1961853611
+< 
+< MM: Read 32 bytes at 0x9da0.
+< Read from 0x9da8: 286250088
+< 
+< MM: Read 32 bytes at 0x740.
+< Read from 0x744: 1040205310
+< 
+< MM: Read 32 bytes at 0x7840.
+< Wrote to 0x784c: -1672057965
+< 
+< MM: Read 32 bytes at 0x2dc0.
+< Read from 0x2ddc: 2046788308
+< 
+< MM: Read 32 bytes at 0x160.
+< Read from 0x168: -957248210
+< 
+< MM: Read 32 bytes at 0xb20.
+< Wrote to 0xb34: -2145441476
+< 
+< MM: Read 32 bytes at 0x7e80.
+< Wrote to 0x7e80: -1337841945
+< 
+< MM: Read 32 bytes at 0xb740.
+< Read from 0xb740: -663087046
+< 
+< Wrote to 0x573c: 2065336255
+< 
+< MM: Read 32 bytes at 0xe680.
+< Wrote to 0xe684: -1263198323
+< 
+< *******************************************
+< Write Hit Rate:		14% (1/7)
+< Read Hit Rate:		0% (0/11)
+< Total Hit Rate:		6% (1/18)
+< Writes to Main Memory:	0
+< Reads from Main Memory:	17
+< *******************************************
+diff -r tests/results_sac/t9s.txt tests/results_student_sac/t9s.txt
+51c51
+< MM: Wrote 32 bytes at 0x4880.
+---
+> MM: Wrote 32 bytes at 0x5480.

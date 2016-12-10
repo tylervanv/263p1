@@ -116,7 +116,7 @@ const char *http_request_line(int fd, char *reqpath, char *env, size_t *env_len)
 const char *http_request_headers(int fd)
 {
     static char buf[8192];      /* static variables are not on the stack */
-    int i;
+    int 9
     char value[512]; /* OVERFLOWED 2 */
     char envvar[512]; /* OVERFLOWED 3 */
 
