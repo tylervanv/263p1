@@ -3,15 +3,72 @@
 # desc
 #
 
-[zookd.c:1612]
-description goes here. for example, the 'buf' variable can be
-overwritten by the 'msg' variable because ...
+[http.c:105]
+1: url_decode() allows sp1, which is contained within buf[8192], to overflow process_client()'s reqpath[2048]. The function coppies characters, decoding some, but does not check for any length bound, only for a end of string character. sp1 points to the beggining of the http request's document path, so the overflowing string should be placed there.
 
-    <paste offending line(s) of code here>
+    <
+    url_decode(reqpath, sp1);
+    
+    ...
+    
+    void url_decode(char *dst, const char *src)
+{
+    for (;;)
+    {
+        if (src[0] == '%' && src[1] && src[2])
+        {
+            char hexbuf[3];
+            hexbuf[0] = src[1];
+            hexbuf[1] = src[2];
+            hexbuf[2] = '\0';
 
-[http.c:106]
-another description.
+            *dst = strtol(&hexbuf[0], 0, 16);
+            src += 3;
+        }
+        else if (src[0] == '+')
+        {
+            *dst = ' ';
+            src++;
+        }
+        else
+        {
+            *dst = *src;
+            src++;
 
-    <paste offending line(s) of code here>
+            if (*dst == '\0')
+                break;
+        }
 
-# many more come here
+        dst++;
+    }
+}
+>
+
+[http.c:159]
+2: url_decode() allows sp, which is contained within buf[8192], to overflow value[512]. The function copies characters, decoding some, but does not check for any length bound, only for a end of string character. sp points to the beggining of an http header value, so the overflowing string should be placed there.
+
+    <
+    url_decode(value, sp);
+    >
+
+[http.c:165]
+3: sprintf() allows buf to overflow envvar[512]. The function does not check for length, only for an end of string character. buf points to the beggining of an http header name, so the overflowing string should be placed there.
+
+
+    <
+    sprintf(envvar, "HTTP_%s", buf);
+    >
+
+[http.c:95]
+4: sprintf() allows sp2, which is contained within buf[8192], to overflow process_client()'s static env[8192], which envp points into. sp2 points to the beggining of the server protocol (http version), so the overflowing string should be placed there. Note this overflows the heap, not the stack (I was able to use it to break but not crash the site).
+
+    <
+    envp += sprintf(envp, "SERVER_PROTOCOL=%s", sp2) + 1;
+    >
+
+[http.c:282]
+5: strcat allows name to overflow pn[1024]. name points to process_client()'s reqpath[2048], which is filled in http_request_line(), so the overflowing string should be placed in the http request's document path (like in the first bug described above).
+
+    <
+    strcat(pn, name);
+    >

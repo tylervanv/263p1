@@ -1,0 +1,15 @@
+ANSWERS
+
+Exercise 2:
+    Exploit 2a overflows process_client()'s reqpath[2048] by stuffing the http request's document path.
+    Exploit 2b overflows http_request_header()'s value[512] by stuffing any of the http request's header values.
+    
+Exercise 3:
+    All vulnerabilities found in Exercise 1 can be exploited in this manner except for the one associated with a heap buffer (#4).
+
+Exercise 4:
+    All vulnerabilities found in Exercise 1 can be exploited in this
+    manner except for the one associated with a heap buffer (#4).
+
+Exercise 5:
+    ...
