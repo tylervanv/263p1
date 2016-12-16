@@ -17,9 +17,9 @@
 
 void touch(const char *name) {
     if (access("/tmp/grading", F_OK) < 0)
-        return;break
+        return;
 
-    char pn[1024]
+    char pn[1024];
     snprintf(pn, 1024, "/tmp/%s", name);
 
     int fd = open(pn, O_RDWR | O_CREAT | O_NOFOLLOW, 0666);
@@ -116,7 +116,7 @@ const char *http_request_line(int fd, char *reqpath, char *env, size_t *env_len)
 const char *http_request_headers(int fd)
 {
     static char buf[8192];      /* static variables are not on the stack */
-    int 9
+    int i;
     char value[512]; /* OVERFLOWED 2 */
     char envvar[512]; /* OVERFLOWED 3 */
 
@@ -156,7 +156,7 @@ const char *http_request_headers(int fd)
         }
 
         /* Decode URL escape sequences in the value */
-        url_decode(value, sp, 512); /* OVERFLOW 2 */
+        url_decode(value, sp, sizeof(value)); /* OVERFLOW 2 */
 
         /* Store header in env. variable for application code */
         /* Some special headers don't use the HTTP_ prefix. */
@@ -279,7 +279,7 @@ void http_serve(int fd, const char *name)
     getcwd(pn, sizeof(pn));
     setenv("DOCUMENT_ROOT", pn, 1);
 
-    strcat(pn, name, sizeof(pn)); /* OVERFLOW 5 */
+    strncat(pn, name, sizeof(pn)); /* OVERFLOW 5 */
     split_path(pn);
 
     if (!stat(pn, &st))
@@ -294,7 +294,7 @@ void http_serve(int fd, const char *name)
     }
 
     handler(fd, pn);
-}f
+}
 
 void http_serve_none(int fd, const char *pn)
 {

