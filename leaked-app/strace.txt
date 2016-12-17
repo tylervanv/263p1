@@ -1,0 +1,677 @@
+2522  accept(0, {sa_family=AF_INET, sin_port=htons(57281), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2529
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2529  close(0)                          = 0
+2529  read(1, "GET / HTTP/1.1\r\nHost: localhost:"..., 8096) = 382
+2529  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2529  write(0, " INFO: request:GET / HTTP/1.1**H"..., 399) = 399
+2529  write(0, "\n", 1)                 = 1
+2529  close(0)                          = 0
+2529  open("home.html", O_RDONLY)       = 0
+2529  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2529  write(2, " INFO: SEND:home.html:1", 23) = 23
+2529  write(2, "\n", 1)                 = 1
+2529  close(2)                          = 0
+2529  lseek(0, 0, SEEK_END)             = 858
+2529  lseek(0, 0, SEEK_SET)             = 0
+2529  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2529  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 115) = 115
+2529  write(2, "\n", 1)                 = 1
+2529  close(2)                          = 0
+2529  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 99) = 99
+2529  read(0, "<!doctype html>\n<html>\n<head>\n<m"..., 8096) = 858
+2529  write(1, "<!doctype html>\n<html>\n<head>\n<m"..., 858) = 858
+2529  read(0, "", 8096)                 = 0
+2529  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2529  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2529  nanosleep({1, 0},  <unfinished ...>
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57282), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2530
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2530  close(0)                          = 0
+2530  read(1, "GET /ext-all.css HTTP/1.1\r\nHost:"..., 8096) = 351
+2530  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2530  write(0, " INFO: request:GET /ext-all.css "..., 368) = 368
+2530  write(0, "\n", 1)                 = 1
+2530  close(0)                          = 0
+2530  open("ext-all.css", O_RDONLY)     = 0
+2530  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2530  write(2, " INFO: SEND:ext-all.css:2", 25) = 25
+2530  write(2, "\n", 1)                 = 1
+2530  close(2)                          = 0
+2530  lseek(0, 0, SEEK_END)             = 206733
+2530  lseek(0, 0, SEEK_SET)             = 0
+2530  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2530  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 117) = 117
+2530  write(2, "\n", 1)                 = 1
+2530  close(2)                          = 0
+2530  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 101) = 101
+2530  read(0, "html,body,div,dl,dt,dd,ul,ol,li,"..., 8096) = 8096
+2530  write(1, "html,body,div,dl,dt,dd,ul,ol,li,"..., 8096) = 8096
+2530  read(0, "ms-border-radius:3px;-khtml-bord"..., 8096) = 8096
+2530  write(1, "ms-border-radius:3px;-khtml-bord"..., 8096) = 8096
+2530  read(0, "('../../resources/themes/images/"..., 8096) = 8096
+2530  write(1, "('../../resources/themes/images/"..., 8096) = 8096
+2530  read(0, "rame-mr{background-image:url('.."..., 8096) = 8096
+2530  write(1, "rame-mr{background-image:url('.."..., 8096) = 8096
+2530  read(0, "be4;background-image:url('../../"..., 8096) = 8096
+2530  write(1, "be4;background-image:url('../../"..., 8096) = 8096
+2530  read(0, "ault-toolbar-small-pressed-sides"..., 8096) = 8096
+2530  write(1, "ault-toolbar-small-pressed-sides"..., 8096) = 8096
+2530  read(0, "olbar-medium-pressed .x-frame-mr"..., 8096) = 8096
+2530  write(1, "olbar-medium-pressed .x-frame-mr"..., 8096) = 8096
+2530  read(0, "ar-large-pressed .x-frame-ml,.x-"..., 8096) = 8096
+2530  write(1, "ar-large-pressed .x-frame-ml,.x-"..., 8096) = 8096
+2530  read(0, "icker-selected span{font-weight:"..., 8096) = 8096
+2530  write(1, "icker-selected span{font-weight:"..., 8096) = 8096
+2530  read(0, "te-space:nowrap;}.x-column-heade"..., 8096) = 8096
+2530  write(1, "te-space:nowrap;}.x-column-heade"..., 8096) = 8096
+2530  read(0, "f');}.x-grid-group-collapsed .x-"..., 8096) = 8096
+2530  write(1, "f');}.x-grid-group-collapsed .x-"..., 8096) = 8096
+2530  read(0, "webkit .x-form-empty-field{line-"..., 8096) = 8096
+2530  write(1, "webkit .x-form-empty-field{line-"..., 8096) = 8096
+2530  read(0, "lor,.x-menu-item img.x-edit-fore"..., 8096) = 8096
+2530  write(1, "lor,.x-menu-item img.x-edit-fore"..., 8096) = 8096
+2530  read(0, "-radius:null;-moz-border-radius-"..., 8096) = 8096
+2530  write(1, "-radius:null;-moz-border-radius-"..., 8096) = 8096
+2530  read(0, " .x-panel-header-default-framed-"..., 8096) = 8096
+2530  write(1, " .x-panel-header-default-framed-"..., 8096) = 8096
+2530  read(0, "-framed-left{padding:0!important"..., 8096) = 8096
+2530  write(1, "-framed-left{padding:0!important"..., 8096) = 8096
+2530  read(0, "br,.x-nbr .x-panel-header-defaul"..., 8096) = 8096
+2530  write(1, "br,.x-nbr .x-panel-header-defaul"..., 8096) = 8096
+2530  read(0, "e:11px;font-weight:bold;}.x-tip-"..., 8096) = 8096
+2530  write(1, "e:11px;font-weight:bold;}.x-tip-"..., 8096) = 8096
+2530  read(0, "solute;padding:0 5px;height:18px"..., 8096) = 8096
+2530  write(1, "solute;padding:0 5px;height:18px"..., 8096) = 8096
+2530  read(0, "us:0;-o-border-radius:0;-ms-bord"..., 8096) = 8096
+2530  write(1, "us:0;-o-border-radius:0;-ms-bord"..., 8096) = 8096
+2530  read(0, "cf2fb 0 -1px 0 0 inset,#ecf2fb 1"..., 8096) = 8096
+2530  write(1, "cf2fb 0 -1px 0 0 inset,#ecf2fb 1"..., 8096) = 8096
+2530  read(0, "tab-default-bottom-ml,.x-nbr .x-"..., 8096) = 8096
+2530  write(1, "tab-default-bottom-ml,.x-nbr .x-"..., 8096) = 8096
+2530  read(0, "er .x-frame-mr{background-image:"..., 8096) = 8096
+2530  write(1, "er .x-frame-mr{background-image:"..., 8096) = 8096
+2530  read(0, "border-color:green;}.x-grid-tree"..., 8096) = 8096
+2530  write(1, "border-color:green;}.x-grid-tree"..., 8096) = 8096
+2530  read(0, "important;}.x-docked-bottom{bord"..., 8096) = 8096
+2530  write(1, "important;}.x-docked-bottom{bord"..., 8096) = 8096
+2530  read(0, "n:-15px -165px;}.x-tool-over .x-"..., 8096) = 4333
+2530  write(1, "n:-15px -165px;}.x-tool-over .x-"..., 4333) = 4333
+2530  read(0, "", 8096)                 = 0
+2530  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2530  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2530  nanosleep({1, 0},  <unfinished ...>
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57283), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2531
+2522  close(1)                          = 0
+2522  accept(0, {sa_family=AF_INET, sin_port=htons(57284), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2532
+2522  close(1)                          = 0
+2522  accept(0, {sa_family=AF_INET, sin_port=htons(57285), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2533
+2522  close(1)                          = 0
+2522  accept(0, {sa_family=AF_INET, sin_port=htons(57286), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2534
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2531  close(0)                          = 0
+2531  read(1, "GET /home.css HTTP/1.1\r\nHost: lo"..., 8096) = 348
+2531  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2531  write(0, " INFO: request:GET /home.css HTT"..., 365) = 365
+2531  write(0, "\n", 1)                 = 1
+2531  close(0)                          = 0
+2531  open("home.css", O_RDONLY)        = 0
+2531  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2531  write(2, " INFO: SEND:home.css:3", 22) = 22
+2531  write(2, "\n", 1)                 = 1
+2531  close(2)                          = 0
+2531  lseek(0, 0, SEEK_END)             = 1489
+2531  lseek(0, 0, SEEK_SET)             = 0
+2531  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2531  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 115) = 115
+2531  write(2, "\n", 1)                 = 1
+2531  close(2)                          = 0
+2531  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 99) = 99
+2531  read(0, "/*!\n * Ext JS\n * Copyright(c) 20"..., 8096) = 1489
+2531  write(1, "/*!\n * Ext JS\n * Copyright(c) 20"..., 1489) = 1489
+2534  close(0)                          = 0
+2534  read(1, "GET /chatmax-min.js HTTP/1.1\r\nHo"..., 8096) = 339
+2534  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2534  write(0, " INFO: request:GET /chatmax-min."..., 356) = 356
+2534  write(0, "\n", 1)                 = 1
+2534  close(0)                          = 0
+2534  open("chatmax-min.js", O_RDONLY)  = 0
+2534  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2534  write(2, " INFO: SEND:chatmax-min.js:6", 28) = 28
+2534  write(2, "\n", 1)                 = 1
+2534  close(2)                          = 0
+2534  lseek(0, 0, SEEK_END)             = 3641
+2534  lseek(0, 0, SEEK_SET)             = 0
+2534  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2534  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 129) = 129
+2534  write(2, "\n", 1)                 = 1
+2534  close(2)                          = 0
+2534  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 113) = 113
+2534  read(0, "window.chatmax={username:null,pa"..., 8096) = 3641
+2534  write(1, "window.chatmax={username:null,pa"..., 3641) = 3641
+2534  read(0, "", 8096)                 = 0
+2534  rt_sigprocmask(SIG_BLOCK, [CHLD],  <unfinished ...>
+2533  close(0 <unfinished ...>
+2534  <... rt_sigprocmask resumed> [], 8) = 0
+2533  <... close resumed> )             = 0
+2534  rt_sigaction(SIGCHLD, NULL,  <unfinished ...>
+2533  read(1,  <unfinished ...>
+2534  <... rt_sigaction resumed> {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2533  <... read resumed> "GET /home.js HTTP/1.1\r\nHost: loc"..., 8096) = 332
+2534  nanosleep({1, 0},  <unfinished ...>
+2533  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2533  write(0, " INFO: request:GET /home.js HTTP"..., 349) = 349
+2533  write(0, "\n", 1)                 = 1
+2533  close(0)                          = 0
+2533  open("home.js", O_RDONLY)         = 0
+2533  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2533  write(2, " INFO: SEND:home.js:5", 21) = 21
+2533  write(2, "\n", 1)                 = 1
+2533  close(2)                          = 0
+2533  lseek(0, 0, SEEK_END)             = 4435
+2533  lseek(0, 0, SEEK_SET)             = 0
+2533  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2533  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 129) = 129
+2533  write(2, "\n", 1)                 = 1
+2533  close(2)                          = 0
+2533  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 113) = 113
+2533  read(0, "Ext.example = function(){\n    va"..., 8096) = 4435
+2533  write(1, "Ext.example = function(){\n    va"..., 4435) = 4435
+2533  read(0, "", 8096)                 = 0
+2533  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2533  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2533  nanosleep({1, 0},  <unfinished ...>
+2532  close(0)                          = 0
+2532  read(1, "GET /bootstrap.js HTTP/1.1\r\nHost"..., 8096) = 337
+2532  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2532  write(0, " INFO: request:GET /bootstrap.js"..., 354) = 354
+2532  write(0, "\n", 1)                 = 1
+2532  close(0)                          = 0
+2532  open("bootstrap.js", O_RDONLY)    = 0
+2532  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2532  write(2, " INFO: SEND:bootstrap.js:4", 26) = 26
+2532  write(2, "\n", 1)                 = 1
+2532  close(2)                          = 0
+2532  lseek(0, 0, SEEK_END)             = 1792
+2532  lseek(0, 0, SEEK_SET)             = 0
+2532  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2532  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 129) = 129
+2532  write(2, "\n", 1)                 = 1
+2532  close(2)                          = 0
+2532  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 113) = 113
+2532  read(0, "/**\n * Load the library located "..., 8096) = 1792
+2532  write(1, "/**\n * Load the library located "..., 1792) = 1792
+2532  read(0, "", 8096)                 = 0
+2532  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2532  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2532  nanosleep({1, 0},  <unfinished ...>
+2531  read(0, "", 8096)                 = 0
+2531  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2531  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2531  nanosleep({1, 0},  <unfinished ...>
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57287), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2535
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2535  close(0)                          = 0
+2535  read(1, "GET /ext-all.js HTTP/1.1\r\nHost: "..., 8096) = 335
+2535  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2535  write(0, " INFO: request:GET /ext-all.js H"..., 352) = 352
+2535  write(0, "\n", 1)                 = 1
+2535  close(0)                          = 0
+2535  open("ext-all.js", O_RDONLY)      = 0
+2535  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2535  write(2, " INFO: SEND:ext-all.js:7", 24) = 24
+2535  write(2, "\n", 1)                 = 1
+2535  close(2)                          = 0
+2535  lseek(0, 0, SEEK_END)             = 1051657
+2535  lseek(0, 0, SEEK_SET)             = 0
+2535  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2535  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 132) = 132
+2535  write(2, "\n", 1)                 = 1
+2535  close(2)                          = 0
+2535  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 116) = 116
+2535  read(0, "(function(){var e=this,a=Object."..., 8096) = 8096
+2535  write(1, "(function(){var e=this,a=Object."..., 8096) = 8096
+2535  read(0, "Regex:function(a){return a.repla"..., 8096) = 8096
+2535  write(1, "Regex:function(a){return a.repla"..., 8096) = 8096
+2535  read(0, "y(w)){if(!Ext.isArray(u[w])){u[w"..., 8096) = 8096
+2535  write(1, "y(w)){if(!Ext.isArray(u[w])){u[w"..., 8096) = 8096
+2535  read(0, "(var c=[],d=0;d<7;c.push(a.getSh"..., 8096) = 8096
+2535  write(1, "(var c=[],d=0;d<7;c.push(a.getSh"..., 8096) = 8096
+2535  read(0, "r;if(!d.$owner){Ext.Error.raise("..., 8096) = 8096
+2535  write(1, "r;if(!d.$owner){Ext.Error.raise("..., 8096) = 8096
+2535  read(0, "(!e||!e[g]){return null}e=e[g]}}"..., 8096) = 8096
+2535  write(1, "(!e||!e[g]){return null}e=e[g]}}"..., 8096) = 8096
+2535  read(0, "turn this},injectScriptElement:f"..., 8096) = 8096
+2535  write(1, "turn this},injectScriptElement:f"..., 8096) = 8096
+2535  read(0, "encodeArray(o)}else{if(Ext.isDat"..., 8096) = 8096
+2535  write(1, "encodeArray(o)}else{if(Ext.isDat"..., 8096) = 8096
+2535  read(0, ").replace(c,\"\")},fileSize:functi"..., 8096) = 8096
+2535  write(1, ").replace(c,\"\")},fileSize:functi"..., 8096) = 8096
+2535  read(0, "nt.createRange():false;return a&"..., 8096) = 8096
+2535  write(1, "nt.createRange():false;return a&"..., 8096) = 8096
+2535  read(0, "j++){r[++ri]=cs[j]}for(j=i+1;cj="..., 8096) = 8096
+2535  write(1, "j++){r[++ri]=cs[j]}for(j=i+1;cj="..., 8096) = 8096
+2535  read(0, "this.dom,l)},focus:function(p,n)"..., 8096) = 8096
+2535  write(1, "this.dom,l)},focus:function(p,n)"..., 8096) = 8096
+2535  read(0, "=this,E=[],J=((I.dom.className.r"..., 8096) = 8096
+2535  write(1, "=this,E=[],J=((I.dom.className.r"..., 8096) = 8096
+2535  read(0, "t.isIEQuirks){G.setStyle({overfl"..., 8096) = 8096
+2535  write(1, "t.isIEQuirks){G.setStyle({overfl"..., 8096) = 8096
+2535  read(0, "setPositioning(d);b.setSize(g);h"..., 8096) = 8096
+2535  write(1, "setPositioning(d);b.setSize(g);h"..., 8096) = 8096
+2535  read(0, ".slice(0)}h.listeners.push(i)}},"..., 8096) = 8096
+2535  write(1, ".slice(0)}h.listeners.push(i)}},"..., 8096) = 8096
+2535  read(0, "lientX+(d&&d.scrollLeft||a&&a.sc"..., 8096) = 8096
+2535  write(1, "lientX+(d&&d.scrollLeft||a&&a.sc"..., 8096) = 8096
+2535  read(0, " g}}}}Ext.Object.each({load:[fal"..., 8096) = 8096
+2535  write(1, " g}}}}Ext.Object.each({load:[fal"..., 8096) = 8096
+2535  read(0, "gnToXY:function(g,A,B){g=Ext.get"..., 8096) = 8096
+2535  write(1, "gnToXY:function(g,A,B){g=Ext.get"..., 8096) = 8096
+2535  read(0, "ft\":\"top\",p,this.anim(d))}return"..., 8096) = 8096
+2535  write(1, "ft\":\"top\",p,this.anim(d))}return"..., 8096) = 8096
+2535  read(0, ";b.events[c]=d}d.bubble=true})}}"..., 8096) = 8096
+2535  write(1, ";b.events[c]=d}d.bubble=true})}}"..., 8096) = 8096
+2535  read(0, "this,k=[\"var r = [],\",\"i = 0,\",\""..., 8096) = 8096
+2535  write(1, "this,k=[\"var r = [],\",\"i = 0,\",\""..., 8096) = 8096
+2535  read(0, "hanged=false;a.owner.needsLayout"..., 8096) = 8096
+2535  write(1, "hanged=false;a.owner.needsLayout"..., 8096) = 8096
+2535  read(0, "){if(b instanceof Ext.AbstractCo"..., 8096) = 8096
+2535  write(1, "){if(b instanceof Ext.AbstractCo"..., 8096) = 8096
+2535  read(0, "g){return g&&b.test(g[c])},null,"..., 8096) = 8096
+2535  write(1, "g){return g&&b.test(g[c])},null,"..., 8096) = 8096
+2535  read(0, "mlCls:Ext.baseCSSPrefix+\"html\",a"..., 8096) = 8096
+2535  write(1, "mlCls:Ext.baseCSSPrefix+\"html\",a"..., 8096) = 8096
+2535  read(0, "\"> {parent.baseCls}-{parent.ui}-"..., 8096) = 8096
+2535  write(1, "\"> {parent.baseCls}-{parent.ui}-"..., 8096) = 8096
+2535  read(0, "ty(c)){a=d[c];if(b[c]&&b[c].on){"..., 8096) = 8096
+2535  write(1, "ty(c)){a=d[c];if(b[c]&&b[c].on){"..., 8096) = 8096
+2535  read(0, "wnerCt.remove(a,false)}}if(a.ren"..., 8096) = 8096
+2535  write(1, "wnerCt.remove(a,false)}}if(a.ren"..., 8096) = 8096
+2535  read(0, "rn Ext.create(\"Ext.data.HasManyA"..., 8096) = 8096
+2535  write(1, "rn Ext.create(\"Ext.data.HasManyA"..., 8096) = 8096
+2535  read(0, "his;if(a.floatParent){a.mun(a.fl"..., 8096) = 8096
+2535  write(1, "his;if(a.floatParent){a.mun(a.fl"..., 8096) = 8096
+2535  read(0, ":function(a){return a},processBi"..., 8096) = 8096
+2535  write(1, ":function(a){return a},processBi"..., 8096) = 8096
+2535  read(0, "=b.insertSibling({cls:Ext.layout"..., 8096) = 8096
+2535  write(1, "=b.insertSibling({cls:Ext.layout"..., 8096) = 8096
+2535  read(0, "b}});Ext.define(\"Ext.fx.target.C"..., 8096) = 8096
+2535  write(1, "b}});Ext.define(\"Ext.fx.target.C"..., 8096) = 8096
+2535  read(0, "Ext.layout.component.Component\","..., 8096) = 8096
+2535  write(1, "Ext.layout.component.Component\","..., 8096) = 8096
+2535  read(0, "tion(d,g,c){var b=this.bus,a,e;i"..., 8096) = 8096
+2535  write(1, "tion(d,g,c){var b=this.bus,a,e;i"..., 8096) = 8096
+2535  read(0, "el(b.model)}else{Ext.applyIf(a,{"..., 8096) = 8096
+2535  write(1, "el(b.model)}else{Ext.applyIf(a,{"..., 8096) = 8096
+2535  read(0, "d;Ext.ModelManager.register(j)},"..., 8096) = 8096
+2535  write(1, "d;Ext.ModelManager.register(j)},"..., 8096) = 8096
+2535  read(0, "tion(a,b){if(this.autoWidth){a=\""..., 8096) = 8096
+2535  write(1, "tion(a,b){if(this.autoWidth){a=\""..., 8096) = 8096
+2535  read(0, "0]==\"number\"){d=g.shift()}a=g.le"..., 8096) = 8096
+2535  write(1, "0]==\"number\"){d=g.shift()}a=g.le"..., 8096) = 8096
+2535  read(0, "El();if(this.menu){a.dom.setAttr"..., 8096) = 8096
+2535  write(1, "El();if(this.menu){a.dom.setAttr"..., 8096) = 8096
+2535  read(0, "return null}}});Ext.define(\"Ext."..., 8096) = 8096
+2535  write(1, "return null}}});Ext.define(\"Ext."..., 8096) = 8096
+2535  read(0, "e this.ids[a][b.id]}}delete this"..., 8096) = 8096
+2535  write(1, "e this.ids[a][b.id]}}delete this"..., 8096) = 8096
+2535  read(0, "op:a.getTop(true),width:a.getWid"..., 8096) = 8096
+2535  write(1, "op:a.getTop(true),width:a.getWid"..., 8096) = 8096
+2535  read(0, "\",perpendicularLeftTop:\"left\",pe"..., 8096) = 8096
+2535  write(1, "\",perpendicularLeftTop:\"left\",pe"..., 8096) = 8096
+2535  read(0, "d,h)},unsubscribe:function(a){va"..., 8096) = 8096
+2535  write(1, "d,h)},unsubscribe:function(a){va"..., 8096) = 8096
+2535  read(0, "=c.ui;if(Ext.isArray(d)){d=d[0]}"..., 8096) = 8096
+2535  write(1, "=c.ui;if(Ext.isArray(d)){d=d[0]}"..., 8096) = 8096
+2535  read(0, ",l)};if(m==\"from\"){m=0}else{if(m"..., 8096) = 8096
+2535  write(1, ",l)};if(m==\"from\"){m=0}else{if(m"..., 8096) = 8096
+2535  read(0, "a,h);c(m,d,a,n,h);var g=d[h],r=m"..., 8096) = 8096
+2535  write(1, "a,h);c(m,d,a,n,h);var g=d[h],r=m"..., 8096) = 8096
+2535  read(0, "is.computeDelta(p[e][1][c],b[c],"..., 8096) = 8096
+2535  write(1, "is.computeDelta(p[e][1][c],b[c],"..., 8096) = 8096
+2535  read(0, "setDragElId(c);this.invalidHandl"..., 8096) = 8096
+2535  write(1, "setDragElId(c);this.invalidHandl"..., 8096) = 8096
+2535  read(0, "ig.dragElId||Ext.dd.DDProxy.drag"..., 8096) = 8096
+2535  write(1, "ig.dragElId||Ext.dd.DDProxy.drag"..., 8096) = 8096
+2535  read(0, "llapse,scope:a});if(a.collapseFi"..., 8096) = 8096
+2535  write(1, "llapse,scope:a});if(a.collapseFi"..., 8096) = 8096
+2535  read(0, "(b&&a.collapseTool){a.collapseTo"..., 8096) = 8096
+2535  write(1, "(b&&a.collapseTool){a.collapseTo"..., 8096) = 8096
+2535  read(0, ".anchor=a.origAnchor}a.showAt(a."..., 8096) = 8096
+2535  write(1, ".anchor=a.origAnchor}a.showAt(a."..., 8096) = 8096
+2535  read(0, "tes){g[n].setAttributes({hidden:"..., 8096) = 8096
+2535  write(1, "tes){g[n].setAttributes({hidden:"..., 8096) = 8096
+2535  read(0, "adius*=1.75;return a.add(Ext.app"..., 8096) = 8096
+2535  write(1, "adius*=1.75;return a.add(Ext.app"..., 8096) = 8096
+2535  read(0, "down\",\"mouseup\",\"mousemove\",\"mou"..., 8096) = 8096
+2535  write(1, "down\",\"mouseup\",\"mousemove\",\"mou"..., 8096) = 8096
+2535  read(0, "a[0],a[1],e.bbox)){if(e.getItemF"..., 8096) = 8096
+2535  write(1, "a[0],a[1],e.bbox)){if(e.getItemF"..., 8096) = 8096
+2535  read(0, "rue)}}g++}}H.hideLabels(g)},hide"..., 8096) = 8096
+2535  write(1, "rue)}}g++}}H.hideLabels(g)},hide"..., 8096) = 8096
+2535  read(0, "e._bbox=e.getBBox()}if(d.label.r"..., 8096) = 8096
+2535  write(1, "e._bbox=e.getBBox()}if(d.label.r"..., 8096) = 8096
+2535  read(0, "et(g))});if(!this.labelArray){if"..., 8096) = 8096
+2535  write(1, "et(g))});if(!this.labelArray){if"..., 8096) = 8096
+2535  read(0, "}if(c.remoteGroup){c.load({scope"..., 8096) = 8096
+2535  write(1, "}if(c.remoteGroup){c.load({scope"..., 8096) = 8096
+2535  read(0, "geSize,msg:\"Requested a bigger r"..., 8096) = 8096
+2535  write(1, "geSize,msg:\"Requested a bigger r"..., 8096) = 8096
+2535  read(0, "height};e.clipBox=h;i={x:(h.x+g)"..., 8096) = 8096
+2535  write(1, "height};e.clipBox=h;i={x:(h.x+g)"..., 8096) = 8096
+2535  read(0, "prevLineWidth=a.__prevLineWidth|"..., 8096) = 8096
+2535  write(1, "prevLineWidth=a.__prevLineWidth|"..., 8096) = 8096
+2535  read(0, "+((r/2+3)*(z===K?1:-1))))}else{i"..., 8096) = 8096
+2535  write(1, "+((r/2+3)*(z===K?1:-1))))}else{i"..., 8096) = 8096
+2535  read(0, "etCount()){return}e=Ext.apply(w,"..., 8096) = 8096
+2535  write(1, "etCount()){return}e=Ext.apply(w,"..., 8096) = 8096
+2535  read(0, "ll(e)}else{Ext.chart.series.Line"..., 8096) = 8096
+2535  write(1, "ll(e)}else{Ext.chart.series.Line"..., 8096) = 8096
+2535  read(0, "is.__excludes[this._index]=true;"..., 8096) = 8096
+2535  write(1, "is.__excludes[this._index]=true;"..., 8096) = 8096
+2535  read(0, "e=c.shadows,j=g.shadowAttributes"..., 8096) = 8096
+2535  write(1, "e=c.shadows,j=g.shadowAttributes"..., 8096) = 8096
+2535  read(0, "s.callParent(arguments);var e=th"..., 8096) = 8096
+2535  write(1, "s.callParent(arguments);var e=th"..., 8096) = 8096
+2535  read(0, "filters:[l],remoteFilter:false,m"..., 8096) = 8096
+2535  write(1, "filters:[l],remoteFilter:false,m"..., 8096) = 8096
+2535  read(0, "Sibling=g;i.updateInfo()}else{g."..., 8096) = 8096
+2535  write(1, "Sibling=g;i.updateInfo()}else{g."..., 8096) = 8096
+2535  read(0, "ee\",requires:[\"Ext.data.Tree\",\"E"..., 8096) = 8096
+2535  write(1, "ee\",requires:[\"Ext.data.Tree\",\"E"..., 8096) = 8096
+2535  read(0, "on(c){if(this.cache[c]===undefin"..., 8096) = 8096
+2535  write(1, "on(c){if(this.cache[c]===undefin"..., 8096) = 8096
+2535  read(0, "ine(\"Ext.direct.RemotingMethod\","..., 8096) = 8096
+2535  write(1, "ine(\"Ext.direct.RemotingMethod\","..., 8096) = 8096
+2535  read(0, "Drag:function(b,e){var d=this,a="..., 8096) = 8096
+2535  write(1, "Drag:function(b,e){var d=this,a="..., 8096) = 8096
+2535  read(0, "(k.hasOwnProperty(\"text\")){b=thi"..., 8096) = 8096
+2535  write(1, "(k.hasOwnProperty(\"text\")){b=thi"..., 8096) = 8096
+2535  read(0, "href){q.href=s.href}if(q.title){"..., 8096) = 8096
+2535  write(1, "href){q.href=s.href}if(q.title){"..., 8096) = 8096
+2535  read(0, "+){p=n[h];c=p.duration;l=p.easin"..., 8096) = 8096
+2535  write(1, "+){p=n[h];c=p.duration;l=p.easin"..., 8096) = 8096
+2535  read(0, "f(b.length){h.doSelect(b,false,t"..., 8096) = 8096
+2535  write(1, "f(b.length){h.doSelect(b,false,t"..., 8096) = 8096
+2535  read(0, "pedEmptyText){b.update(c.emptyTe"..., 8096) = 8096
+2535  write(1, "pedEmptyText){b.update(c.emptyTe"..., 8096) = 8096
+2535  read(0, "tion(){if(a){d.completeEdit()}el"..., 8096) = 8096
+2535  write(1, "tion(){if(a){d.completeEdit()}el"..., 8096) = 8096
+2535  read(0, "\",textBackEl:\".\"+this.baseCls+\"-"..., 8096) = 8096
+2535  write(1, "\",textBackEl:\".\"+this.baseCls+\"-"..., 8096) = 8096
+2535  read(0, "rnalDefaults;if(b.events){Ext.ap"..., 8096) = 8096
+2535  write(1, "rnalDefaults;if(b.events){Ext.ap"..., 8096) = 8096
+2535  read(0, "nt;this.refreshCache()}var l=h.g"..., 8096) = 8096
+2535  write(1, "nt;this.refreshCache()}var l=h.g"..., 8096) = 8096
+2535  read(0, "sponse(b);if(a!==true&&!a.succes"..., 8096) = 8096
+2535  write(1, "sponse(b);if(a!==true&&!a.succes"..., 8096) = 8096
+2535  read(0, "labelAlign,h=e.labelEl;if(h&&!h."..., 8096) = 8096
+2535  write(1, "labelAlign,h=e.labelEl;if(h&&!h."..., 8096) = 8096
+2535  read(0, "Header:true,ignoreHeaderBorderMa"..., 8096) = 8096
+2535  write(1, "Header:true,ignoreHeaderBorderMa"..., 8096) = 8096
+2535  read(0, "onDisable:function(){var a=this,"..., 8096) = 8096
+2535  write(1, "onDisable:function(){var a=this,"..., 8096) = 8096
+2535  read(0, "ndow.MessageBox\",{extend:\"Ext.wi"..., 8096) = 8096
+2535  write(1, "ndow.MessageBox\",{extend:\"Ext.wi"..., 8096) = 8096
+2535  read(0, "b=a.getFields().filterBy(functio"..., 8096) = 8096
+2535  write(1, "b=a.getFields().filterBy(functio"..., 8096) = 8096
+2535  read(0, "rn c},getTargetEl:function(){ret"..., 8096) = 8096
+2535  write(1, "rn c},getTargetEl:function(){ret"..., 8096) = 8096
+2535  read(0, "ction(a){return this.findBy(func"..., 8096) = 8096
+2535  write(1, "ction(a){return this.findBy(func"..., 8096) = 8096
+2535  read(0, "ouseOver:Ext.emptyFn,onContainer"..., 8096) = 8096
+2535  write(1, "ouseOver:Ext.emptyFn,onContainer"..., 8096) = 8096
+2535  read(0, "ptyFn,collapseIf:function(b){var"..., 8096) = 8096
+2535  write(1, "ptyFn,collapseIf:function(b){var"..., 8096) = 8096
+2535  read(0, "rseInt(a,10);if(!a||isNaN(c)){th"..., 8096) = 8096
+2535  write(1, "rseInt(a,10);if(!a||isNaN(c)){th"..., 8096) = 8096
+2535  read(0, "hasSelection()){a.doAutoSelect()"..., 8096) = 8096
+2535  write(1, "hasSelection()){a.doAutoSelect()"..., 8096) = 8096
+2535  read(0, "n(m,l,k){d=i[k];m.dom.innerHTML="..., 8096) = 8096
+2535  write(1, "n(m,l,k){d=i[k];m.dom.innerHTML="..., 8096) = 8096
+2535  read(0, "function(b,e){var d=this,g=e[0],"..., 8096) = 8096
+2535  write(1, "function(b,e){var d=this,g=e[0],"..., 8096) = 8096
+2535  read(0, "get.displayfield\",requires:[\"Ext"..., 8096) = 8096
+2535  write(1, "get.displayfield\",requires:[\"Ext"..., 8096) = 8096
+2535  read(0, "lorpicker\",allowReselect:true,fo"..., 8096) = 8096
+2535  write(1, "lorpicker\",allowReselect:true,fo"..., 8096) = 8096
+2535  read(0, "se{b=Ext.isSafari;if(b){e*=2}c=M"..., 8096) = 8096
+2535  write(1, "se{b=Ext.isSafari;if(b){e*=2}c=M"..., 8096) = 8096
+2535  read(0, "|\");a=g.length;for(;c<a&&!h;++c)"..., 8096) = 8096
+2535  write(1, "|\");a=g.length;for(;c<a&&!h;++c)"..., 8096) = 8096
+2535  read(0, "Grid,k.normalGrid];k.layout={typ"..., 8096) = 8096
+2535  write(1, "Grid,k.normalGrid];k.layout={typ"..., 8096) = 8096
+2535  read(0, ",d=Math.floor(g/h.pageSize),r=Ma"..., 8096) = 8096
+2535  write(1, ",d=Math.floor(g/h.pageSize),r=Ma"..., 8096) = 8096
+2535  read(0, "rendered){this.determineScrollba"..., 8096) = 8096
+2535  write(1, "rendered){this.determineScrollba"..., 8096) = 8096
+2535  read(0, "ditionalData method of the rowbo"..., 8096) = 8096
+2535  write(1, "ditionalData method of the rowbo"..., 8096) = 8096
+2535  read(0, "xt.list.ListView\",\"Ext.ListView\""..., 8096) = 8096
+2535  write(1, "xt.list.ListView\",\"Ext.ListView\""..., 8096) = 8096
+2535  read(0, "validate()}}});Ext.define(\"Ext.g"..., 8096) = 8096
+2535  write(1, "validate()}}});Ext.define(\"Ext.g"..., 8096) = 8096
+2535  read(0, "leWidth:5,sortState:null,possibl"..., 8096) = 8096
+2535  write(1, "leWidth:5,sortState:null,possibl"..., 8096) = 8096
+2535  read(0, "(k){var j=k.getTarget(this.view."..., 8096) = 8096
+2535  write(1, "(k){var j=k.getTarget(this.view."..., 8096) = 8096
+2535  read(0, "ength,b=0,g=0,a=this.visibleChun"..., 8096) = 8096
+2535  write(1, "ength,b=0,g=0,a=this.visibleChun"..., 8096) = 8096
+2535  read(0, "TplFragments:function(){return{g"..., 8096) = 8096
+2535  write(1, "TplFragments:function(){return{g"..., 8096) = 8096
+2535  read(0, ";delete a.setEditor},getColumnFi"..., 8096) = 8096
+2535  write(1, ";delete a.setEditor},getColumnFi"..., 8096) = 8096
+2535  read(0, "mic){var d=b.getXY(),s=j.up(\"[sc"..., 8096) = 8096
+2535  write(1, "mic){var d=b.getXY(),s=j.up(\"[sc"..., 8096) = 8096
+2535  read(0, "id.customRenderers[e.get(b.grid."..., 8096) = 8096
+2535  write(1, "id.customRenderers[e.get(b.grid."..., 8096) = 8096
+2535  read(0, ".hiddenDocked.push(d)}}b.addCls("..., 8096) = 8096
+2535  write(1, ".hiddenDocked.push(d)}}b.addCls("..., 8096) = 8096
+2535  read(0, "ction(a){this.splitters[a.region"..., 8096) = 8096
+2535  write(1, "ction(a){this.splitters[a.region"..., 8096) = 8096
+2535  read(0, "mn\"],alternateClassName:\"Ext.lay"..., 8096) = 8096
+2535  write(1, "mn\"],alternateClassName:\"Ext.lay"..., 8096) = 8096
+2535  read(0, "beforecheckchange\",b,c)!==false)"..., 8096) = 8096
+2535  write(1, "beforecheckchange\",b,c)!==false)"..., 8096) = 8096
+2535  read(0, "t.datemenu\",requires:[\"Ext.picke"..., 8096) = 8096
+2535  write(1, "t.datemenu\",requires:[\"Ext.picke"..., 8096) = 8096
+2535  read(0, "tBox,h,p=0,t=0,a=0,v=0,u,m=g[0]<"..., 8096) = 8096
+2535  write(1, "tBox,h,p=0,t=0,a=0,v=0,u,m=g[0]<"..., 8096) = 8096
+2535  read(0, "isible(),a,h,d,c;if(j){a=g.lastF"..., 8096) = 8096
+2535  write(1, "isible(),a,h,d,c;if(j){a=g.lastF"..., 8096) = 8096
+2535  read(0, "t.component.field.Slider\"],field"..., 8096) = 8096
+2535  write(1, "t.component.field.Slider\"],field"..., 8096) = 8096
+2535  read(0, "{var b=this;b.callParent(argumen"..., 8096) = 8096
+2535  write(1, "{var b=this;b.callParent(argumen"..., 8096) = 8096
+2535  read(0, "E_URL))}else{if(d.getDepth()!==0"..., 8096) = 8096
+2535  write(1, "E_URL))}else{if(d.getDepth()!==0"..., 8096) = 8096
+2535  read(0, "and:b.createRelayer(\"beforeiteme"..., 8096) = 8096
+2535  write(1, "and:b.createRelayer(\"beforeiteme"..., 8096) = 8096
+2535  read(0, "t.cookie=c+\"=\"+escape(e)+((b===n"..., 8096) = 7273
+2535  write(1, "t.cookie=c+\"=\"+escape(e)+((b===n"..., 7273) = 7273
+2535  read(0, "", 8096)                 = 0
+2535  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2535  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2535  nanosleep({1, 0},  <unfinished ...>
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57288), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2536
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2536  close(0)                          = 0
+2536  read(1, "GET /background.jpg HTTP/1.1\r\nHo"..., 8096) = 339
+2536  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2536  write(0, " INFO: request:GET /background.j"..., 356) = 356
+2536  write(0, "\n", 1)                 = 1
+2536  close(0)                          = 0
+2536  open("background.jpg", O_RDONLY)  = 0
+2536  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2536  write(2, " INFO: SEND:background.jpg:8", 28) = 28
+2536  write(2, "\n", 1)                 = 1
+2536  close(2)                          = 0
+2536  lseek(0, 0, SEEK_END)             = 166206
+2536  lseek(0, 0, SEEK_SET)             = 0
+2536  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 2
+2536  write(2, " INFO: Header:HTTP/1.1 200 OK\nSe"..., 118) = 118
+2536  write(2, "\n", 1)                 = 1
+2536  close(2)                          = 0
+2536  write(1, "HTTP/1.1 200 OK\nServer: proton/2"..., 102) = 102
+2536  read(0, "\377\330\377\340\0\20JFIF\0\1\1\0\0\1\0\1\0\0\377\333\0\204\0\5\3\4\t\t\10\10"..., 8096) = 8096
+2536  write(1, "\377\330\377\340\0\20JFIF\0\1\1\0\0\1\0\1\0\0\377\333\0\204\0\5\3\4\t\t\10\10"..., 8096) = 8096
+2536  read(0, "\350\227D\346\311'\330\232v3\272d\370\245kuJ\220\355\255\230\335:&\262\222\311\261\272\4\366@"..., 8096) = 8096
+2536  write(1, "\350\227D\346\311'\330\232v3\272d\370\245kuJ\220\355\255\230\335:&\262\222\311\261\272\4\366@"..., 8096) = 8096
+2536  read(0, "\372\245d\305\332\300\3053\262!\352\237\24\n\277\224Ed\231\221\273$\314\221Q\260-\340\351\237Dn"..., 8096) = 8096
+2536  write(1, "\372\245d\305\332\300\3053\262!\352\237\24\n\277\224Ed\231\221\273$\314\221Q\260-\340\351\237Dn"..., 8096) = 8096
+2536  read(0, "\266\227N\351\23\246\205n\306k]/\203\245\325\222f\262Ac_D\235\322vL\355\342\350I\27l"..., 8096) = 8096
+2536  write(1, "\266\227N\351\23\246\205n\306k]/\203\245\325\222f\262Ac_D\235\322vL\355\342\350I\27l"..., 8096) = 8096
+2536  read(0, "\356\207\252fdvBTKv\7\336\233\252$\231\220;\6\310_Tz&vM\n\305d\10\335\222"..., 8096) = 8096
+2536  write(1, "\356\207\252fdvBTKv\7\336\233\252$\231\220;\6\310_Tz&vM\n\305d\10\335\222"..., 8096) = 8096
+2536  read(0, "(\3\276\252g\225\"\241\205\225\361\262{+O\27\242\211\343vQ\34\251\227,N$W\262<\335\30"..., 8096) = 8096
+2536  write(1, "(\3\276\252g\225\"\241\205\225\361\262{+O\27\242\211\343vQ\34\251\227,N$W\262<\335\30"..., 8096) = 8096
+2536  read(0, "\237Xn\317\361A\5E\226\276\25\255\214\274J{\233\26gk\250\334TQMvJY\231\226\n-"..., 8096) = 8096
+2536  write(1, "\237Xn\317\361A\5E\226\276\25\255\214\274J{\233\26gk\250\334TQMvJY\231\226\n-"..., 8096) = 8096
+2536  read(0, "'\355\21\3575\200\361T\327>\245\301\247\363\177\277:\226\306\315\t\366\334dxFE)\277.1\16"..., 8096) = 8096
+2536  write(1, "'\355\21\3575\200\361T\327>\245\301\247\363\177\277:\226\306\315\t\366\334dxFE)\277.1\16"..., 8096) = 8096
+2536  read(0, "\374S\346\375\24\257\266Y\177\226W\205\37\"\333\312\317\340(L\333\246\2\212\234n\310g\v-\377\0"..., 8096) = 8096
+2536  write(1, "\374S\346\375\24\257\266Y\177\226W\205\37\"\333\312\317\340(L\333\246\2\212\234n\310g\v-\377\0"..., 8096) = 8096
+2536  read(0, "z9\312l\271!\366\263\26IT1I\3747\5\231y\0\364\354Y[\372\252\234\220\230\352$\264\32"..., 8096) = 8096
+2536  write(1, "z9\312l\271!\366\263\26IT1I\3747\5\231y\0\364\354Y[\372\252\234\220\230\352$\264\32"..., 8096) = 8096
+2536  read(0, "{\26\2631\346\345wY\3117\357.\v\306\223fn\320\246\263\331\372\252X\0236\236\325\321\326D\316"..., 8096) = 8096
+2536  write(1, "{\26\2631\346\345wY\3117\357.\v\306\223fn\320\246\263\331\372\252X\0236\236\325\321\326D\316"..., 8096) = 8096
+2536  read(0, "rb\36\322\311gm\35\227\24\216W\1cq\304e\21\373P\374$\275\214?ap\342\367\234\374G"..., 8096) = 8096
+2536  write(1, "rb\36\322\311gm\35\227\24\216W\1cq\304e\21\373P\374$\275\214?ap\342\367\234\374G"..., 8096) = 8096
+2536  read(0, "\236\226\\\271\213\0211\371\374\313\346m\361\246h\252\347\17IHr\374\v\333\377\0\375\36\266\235<t"..., 8096) = 8096
+2536  write(1, "\236\226\\\271\213\0211\371\374\313\346m\361\246h\252\347\17IHr\374\v\333\377\0\375\36\266\235<t"..., 8096) = 8096
+2536  read(0, "9\362\31\367\207v=\313\201\243\372\324\262O\4\34(\3062.\370\300\314\370\276\314\271m\375\213[v"..., 8096) = 8096
+2536  write(1, "9\362\31\367\207v=\313\201\243\372\324\262O\4\34(\3062.\370\300\314\370\276\314\271m\375\213[v"..., 8096) = 8096
+2536  read(0, "\230_\202B2\211\234F\31\363\211\227u\307\271GY\274\263P\324\20\214\240O<\374\"\310s.\27"..., 8096) = 8096
+2536  write(1, "\230_\202B2\211\234F\31\363\211\227u\307\271GY\274\263P\324\20\214\240O<\374\"\310s.\27"..., 8096) = 8096
+2536  read(0, "\343\246\255w5~G\253\375\tm\201\247:\266(\302_\260\31\304O\337\t\367e\373k\257\254\250="..., 8096) = 8096
+2536  write(1, "\343\246\255w5~G\253\375\tm\201\247:\266(\302_\260\31\304O\337\t\367e\373k\257\254\250="..., 8096) = 8096
+2536  read(0, "\251\251::\230\304\212\232\244\3072\366K\345\317/\341\\\rN\317,\351\346\214E\237\353CI(\373"..., 8096) = 8096
+2536  write(1, "\251\251::\230\304\212\232\244\3072\366K\345\317/\341\\\rN\317,\351\346\214E\237\353CI(\373"..., 8096) = 8096
+2536  read(0, "?*\3407\277u\342\32Ja\243\236YZ\244\204j\204\2738\247\315\311\362\256\363i\321D{<\334"..., 8096) = 8096
+2536  write(1, "?*\3407\277u\342\32Ja\243\236YZ\244\204j\204\2738\247\315\311\362\256\363i\321D{<\334"..., 8096) = 8096
+2536  read(0, "\363`\266\267\312Z\27\330\365\20\3442M\20\367rf\6\37\357\363Y8h\311\216-4\225\372\336\364"..., 8096) = 8096
+2536  write(1, "\363`\266\267\312Z\27\330\365\20\3442M\20\367rf\6\37\357\363Y8h\311\216-4\225\372\336\364"..., 8096) = 8096
+2536  read(0, "\317\3753mW2\247p\311\243\346\fr\317>N\\\224[\vx\246\222\252H\210\356\321E\314_9"..., 8096) = 8096
+2536  write(1, "\317\3753mW2\247p\311\243\346\fr\317>N\\\224[\vx\246\222\252H\210\356\321E\314_9"..., 8096) = 8096
+2536  read(0, "o\233\3758\374\377\0000\367Rg\32\355\240\f\315\2130;^\356\372\6\215{\364\370,\235\360\215\270"..., 8096) = 4286
+2536  write(1, "o\233\3758\374\377\0000\367Rg\32\355\240\f\315\2130;^\356\372\6\215{\364\370,\235\360\215\270"..., 4286) = 4286
+2536  read(0, "", 8096)                 = 0
+2536  rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+2536  rt_sigaction(SIGCHLD, NULL, {SIG_IGN, [CHLD], SA_RESTART}, 8) = 0
+2536  nanosleep({1, 0},  <unfinished ...>
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57289), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2537
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2537  close(0)                          = 0
+2537  read(1, "GET /resources/themes/images/def"..., 8096) = 379
+2537  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2537  write(0, " INFO: request:GET /resources/th"..., 396) = 396
+2537  write(0, "\n", 1)                 = 1
+2537  close(0)                          = 0
+2537  open("resources/themes/images/default/tools/tool-sprites.gif", O_RDONLY) = -1 ENOENT (No such file or directory)
+2537  write(1, "HTTP/1.1 404 Not Found\nContent-L"..., 224) = 224
+2537  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2537  write(0, "NOT FOUND: Failed to open file:r"..., 85) = 85
+2537  write(0, "\n", 1)                 = 1
+2537  close(0)                          = 0
+2537  exit_group(3)                     = ?
+2537  +++ exited with 3 +++
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57290), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2538
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2538  close(0)                          = 0
+2538  read(1, "GET /resources/themes/images/def"..., 8096) = 373
+2538  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2538  write(0, " INFO: request:GET /resources/th"..., 391) = 391
+2538  write(0, "\n", 1)                 = 1
+2538  close(0)                          = 0
+2538  open("resources/themes/images/default/form/text-bg.gif", O_RDONLY) = -1 ENOENT (No such file or directory)
+2538  write(1, "HTTP/1.1 404 Not Found\nContent-L"..., 224) = 224
+2538  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2538  write(0, "NOT FOUND: Failed to open file:r"..., 79) = 79
+2538  write(0, "\n", 1)                 = 1
+2538  close(0)                          = 0
+2538  exit_group(3)                     = ?
+2538  +++ exited with 3 +++
+2529  <... nanosleep resumed> 0xbffff47c) = 0
+2529  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2529  close(1)                          = 0
+2529  exit_group(1)                     = ?
+2529  +++ exited with 1 +++
+2530  <... nanosleep resumed> 0xbffff47c) = 0
+2530  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2530  close(1)                          = 0
+2530  exit_group(1)                     = ?
+2530  +++ exited with 1 +++
+2534  <... nanosleep resumed> 0xbffff47c) = 0
+2534  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2534  close(1)                          = 0
+2534  exit_group(1)                     = ?
+2534  +++ exited with 1 +++
+2533  <... nanosleep resumed> 0xbffff47c) = 0
+2533  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2533  close(1)                          = 0
+2533  exit_group(1)                     = ?
+2533  +++ exited with 1 +++
+2532  <... nanosleep resumed> 0xbffff47c) = 0
+2532  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2532  close(1)                          = 0
+2532  exit_group(1)                     = ?
+2532  +++ exited with 1 +++
+2531  <... nanosleep resumed> 0xbffff47c) = 0
+2531  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2531  close(1)                          = 0
+2531  exit_group(1)                     = ?
+2531  +++ exited with 1 +++
+2535  <... nanosleep resumed> 0xbffff47c) = 0
+2535  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2535  close(1)                          = 0
+2535  exit_group(1)                     = ?
+2535  +++ exited with 1 +++
+2536  <... nanosleep resumed> 0xbffff47c) = 0
+2536  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+2536  close(1)                          = 0
+2536  exit_group(1)                     = ?
+2536  +++ exited with 1 +++
+2522  <... accept resumed> {sa_family=AF_INET, sin_port=htons(57291), sin_addr=inet_addr("10.0.2.2")}, [16]) = 1
+2522  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb7e21768) = 2539
+2522  close(1)                          = 0
+2522  accept(0,  <unfinished ...>
+2539  close(0)                          = 0
+2539  read(1, "GET /$0027992034640720087?pw=108"..., 8096) = 359
+2539  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2539  write(0, " INFO: request:GET /$00279920346"..., 377) = 377
+2539  write(0, "\n", 1)                 = 1
+2539  close(0)                          = 0
+2539  open("password.db", O_RDONLY)     = 0
+2539  fstat64(0, {st_mode=S_IFREG|0664, st_size=8016, ...}) = 0
+2539  mmap2(NULL, 8016, PROT_READ, MAP_SHARED, 0, 0) = 0xb7e1f000
+2539  close(0)                          = 0
+2539  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2539  write(0, " INFO: Found username match in p"..., 57) = 57
+2539  write(0, "\n", 1)                 = 1
+2539  close(0)                          = 0
+2539  write(1, "HTTP/1.1 403 Forbidden\nContent-L"..., 271) = 271
+2539  open("proton.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 0
+2539  write(0, "FORBIDDEN: Password mismatch:lsd", 32) = 32
+2539  write(0, "\n", 1)                 = 1
+2539  close(0)                          = 0
+2539  exit_group(3)                     = ?
+2539  +++ exited with 3 +++
+2522  <... accept resumed> 0x8054094, [16]) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+2522  --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=2540, si_uid=1000} ---
+2522  +++ killed by SIGTERM +++

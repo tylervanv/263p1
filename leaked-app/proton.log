@@ -1,0 +1,1420 @@
+ INFO: proton starting:8080:2328
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Accept-Encoding: gzip, deflate**Connection: keep-alive****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$06041974207363462?pw=&un=.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:11
+FORBIDDEN: Did not find user in database:
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:12
+ INFO: SEND:home.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:13
+ INFO: SEND:ext-all.css:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:13
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:14
+ INFO: SEND:home.css:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:14
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:17
+ INFO: SEND:chatmax-min.js:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:17
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:16
+ INFO: SEND:home.js:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:16
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:15
+ INFO: SEND:bootstrap.js:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:15
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:18
+ INFO: SEND:ext-all.js:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:18
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:19
+ INFO: SEND:background.jpg:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:19
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:20
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:21
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:22
+ INFO: SEND:home.html:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:22
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:23
+ INFO: SEND:ext-all.css:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:23
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:24
+ INFO: SEND:home.css:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:24
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:27
+ INFO: SEND:chatmax-min.js:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:27
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:26
+ INFO: SEND:home.js:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:26
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:25
+ INFO: SEND:bootstrap.js:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:25
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:28
+ INFO: SEND:ext-all.js:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:28
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:29
+ INFO: SEND:background.jpg:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:29
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:30
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:31
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: proton starting:8080:2522
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$0027992034640720087?pw=108-115-100&un=114-111-111-116.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:11
+ INFO: Found username match in password database!:root:11
+FORBIDDEN: Password mismatch:lsd
+ INFO: proton starting:8080:2549
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Accept-Encoding: gzip, deflate**Connection: keep-alive****:11
+ INFO: SEND:home.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Accept-Encoding: gzip, deflate**Connection: keep-alive****:12
+ INFO: SEND:home.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:13
+ INFO: SEND:ext-all.css:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:13
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:15
+ INFO: SEND:bootstrap.js:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:15
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:14
+ INFO: SEND:home.css:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:14
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:17
+ INFO: SEND:chatmax-min.js:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:17
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:16
+ INFO: SEND:home.js:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:16
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:18
+ INFO: SEND:ext-all.js:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:18
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:19
+ INFO: SEND:background.jpg:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:19
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:20
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:21
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$012484464659762307?pw=108-115-100&un=114-111-111-116.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:22
+ INFO: Found username match in password database!:root:22
+FORBIDDEN: Password mismatch:lsd
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:23
+ INFO: SEND:home.html:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:23
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:24
+ INFO: SEND:ext-all.css:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:24
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:25
+ INFO: SEND:home.css:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:25
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:26
+ INFO: SEND:bootstrap.js:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:26
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:27
+ INFO: SEND:home.js:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:27
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:28
+ INFO: SEND:chatmax-min.js:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:28
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:29
+ INFO: SEND:ext-all.js:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:29
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:30
+ INFO: SEND:background.jpg:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:30
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:31
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:32
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$05614125834174627?pw=108-115-100&un=114-111-111-116.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:33
+ INFO: Found username match in password database!:root:33
+FORBIDDEN: Password mismatch:lsd
+ INFO: request:GET /$04132277964376948?pw=108-115-100&un=114-111-111-116&msg=123-34-102-114-111-109-34-58-32-34-114-111-111-116-34-44-34-115-117-98-106-101-99-116-34-58-32-34-65-65-65-65-65-65-34-44-34-100-97-116-101-34-58-32-34-83-117-110-32-68-101-99-32-49-56-32-50-48-49-54-32-48-51-58-50-50-58-52-50-32-71-77-84-45-48-53-48-48-32-40-69-83-84-41-34-44-34-98-111-100-121-34-58-32-34-65-65-65-65-65-65-34-125-47-47-69-78-68-95-77-83-71-47-47-0-0-0-0-0-0-0-0-0-0-0-0-0-0&to=65-65-65-65-65-65.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:34
+ INFO: Found username match in password database!:root:34
+FORBIDDEN: Password mismatch:lsd
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:35
+ INFO: SEND:home.html:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:35
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:36
+ INFO: SEND:ext-all.css:36
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:36
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:37
+ INFO: SEND:home.css:37
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:37
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:39
+ INFO: SEND:home.js:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:39
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:38
+ INFO: SEND:bootstrap.js:38
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:38
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:40
+ INFO: SEND:chatmax-min.js:40
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:40
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:41
+ INFO: SEND:ext-all.js:41
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:41
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:42
+ INFO: SEND:background.jpg:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:42
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:43
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:44
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: proton starting:8080:2629
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$0897927935869666?pw=99-111-111-108&un=114-111-111-116.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:11
+ INFO: Found username match in password database!:root:11
+FORBIDDEN: Password mismatch:cool
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:12
+ INFO: SEND:home.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:13
+ INFO: SEND:ext-all.css:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:13
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:14
+ INFO: SEND:home.css:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:14
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:15
+ INFO: SEND:bootstrap.js:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:15
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:16
+ INFO: SEND:home.js:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:16
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:17
+ INFO: SEND:chatmax-min.js:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:17
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:18
+ INFO: SEND:ext-all.js:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:18
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:19
+ INFO: SEND:background.jpg:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:19
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:20
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:21
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:22
+ INFO: SEND:home.html:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:22
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:23
+ INFO: SEND:ext-all.css:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:23
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:24
+ INFO: SEND:home.css:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:24
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:25
+ INFO: SEND:home.js:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:25
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:26
+ INFO: SEND:bootstrap.js:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:26
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:27
+ INFO: SEND:chatmax-min.js:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:27
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:28
+ INFO: SEND:ext-all.js:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:28
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:29
+ INFO: SEND:background.jpg:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:29
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:30
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:31
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: proton starting:8080:2692
+ INFO: proton starting:8080:2700
+ INFO: proton starting:8080:2702
+ERROR: system call:bind Errno=98 exiting pid=2702
+ INFO: proton starting:8080:2704
+ERROR: system call:bind Errno=98 exiting pid=2704
+ INFO: proton starting:8080:2717
+ INFO: proton starting:8080:2719
+ERROR: system call:bind Errno=98 exiting pid=2719
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Accept-Encoding: gzip, deflate**Connection: keep-alive****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: proton starting:8080:2737
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Accept-Encoding: gzip, deflate**Connection: keep-alive****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: proton starting:8080:2759
+ INFO: proton starting:8080:2762
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$046559799092502374?pw=105-115-100-101-97-100&un=114-111-111-116.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:11
+ INFO: Found username match in password database!:root:11
+FORBIDDEN: Password mismatch:isdead
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:12
+ INFO: SEND:home.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:13
+ INFO: SEND:ext-all.css:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:13
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:14
+ INFO: SEND:home.css:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:14
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:15
+ INFO: SEND:bootstrap.js:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:15
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:16
+ INFO: SEND:home.js:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:16
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:17
+ INFO: SEND:chatmax-min.js:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:17
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:18
+ INFO: SEND:ext-all.js:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:18
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:19
+ INFO: SEND:background.jpg:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:19
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:20
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:21
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$06505719781256523?pw=97-115-100-102&un=97-115-102-100.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:22
+FORBIDDEN: Did not find user in database:asfd
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:23
+ INFO: SEND:home.html:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:23
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:26
+ INFO: SEND:bootstrap.js:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:26
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:25
+ INFO: SEND:home.css:25
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:24
+ INFO: SEND:ext-all.css:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:25
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:27
+ INFO: SEND:home.js:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:27
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:28
+ INFO: SEND:chatmax-min.js:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:28
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:29
+ INFO: SEND:ext-all.js:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:29
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:30
+ INFO: SEND:background.jpg:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:30
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:31
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:32
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: request:GET /$039271590789934263?pw=&un=.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:33
+FORBIDDEN: Did not find user in database:
+ INFO: request:GET /$011190185021640864?pw=&un=&msg=123-34-102-114-111-109-34-58-32-34-34-44-34-115-117-98-106-101-99-116-34-58-32-34-34-44-34-100-97-116-101-34-58-32-34-83-117-110-32-68-101-99-32-49-56-32-50-48-49-54-32-48-51-58-53-57-58-53-52-32-71-77-84-45-48-53-48-48-32-40-69-83-84-41-34-44-34-98-111-100-121-34-58-32-34-115-97-100-102-115-97-100-102-115-97-100-102-115-97-34-125-47-47-69-78-68-95-77-83-71-47-47&to=.inbox HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:34
+FORBIDDEN: Did not find user in database:
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Cache-Control: max-age=0**Accept-Encoding: gzip, deflate****:35
+ INFO: SEND:home.html:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:35
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:36
+ INFO: SEND:ext-all.css:36
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:36
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:37
+ INFO: SEND:home.css:37
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:37
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:38
+ INFO: SEND:bootstrap.js:38
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:38
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:39
+ INFO: SEND:home.js:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:39
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:40
+ INFO: SEND:chatmax-min.js:40
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:40
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:41
+ INFO: SEND:ext-all.js:41
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:41
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:42
+ INFO: SEND:background.jpg:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:42
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:43
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Accept-Encoding: gzip, deflate**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Cache-Control: max-age=0****:44
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
+ INFO: proton starting:8080:2829
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Upgrade-Insecure-Requests: 1**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Accept-Encoding: gzip, deflate**Connection: keep-alive****:1
+ INFO: SEND:home.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 858
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /ext-all.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:2
+ INFO: SEND:ext-all.css:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 206733
+Connection: close
+Content-Type: text/css
+
+:2
+ INFO: request:GET /home.css HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: text/css,*/*;q=0.1**User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:3
+ INFO: SEND:home.css:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1489
+Connection: close
+Content-Type: text/css
+
+:3
+ INFO: request:GET /chatmax-min.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:6
+ INFO: SEND:chatmax-min.js:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 3641
+Connection: close
+Content-Type: application/javascript
+
+:6
+ INFO: request:GET /home.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:5
+ INFO: SEND:home.js:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 4435
+Connection: close
+Content-Type: application/javascript
+
+:5
+ INFO: request:GET /bootstrap.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:4
+ INFO: SEND:bootstrap.js:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1792
+Connection: close
+Content-Type: application/javascript
+
+:4
+ INFO: request:GET /ext-all.js HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:7
+ INFO: SEND:ext-all.js:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 1051657
+Connection: close
+Content-Type: application/javascript
+
+:7
+ INFO: request:GET /background.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:8
+ INFO: SEND:background.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: proton/23.0
+Content-Length: 166206
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: request:GET /resources/themes/images/default/tools/tool-sprites.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:9
+NOT FOUND: Failed to open file:resources/themes/images/default/tools/tool-sprites.gif
+ INFO: request:GET /resources/themes/images/default/form/text-bg.gif HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Accept: */***User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14**Accept-Language: en-us**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate****:10
+NOT FOUND: Failed to open file:resources/themes/images/default/form/text-bg.gif
